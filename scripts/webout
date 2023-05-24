@@ -1,0 +1,9 @@
+#!/bin/bash
+
+firefox http://172.16.32.1:1000/keepalive?f2f8fdf1fff7fcfb
+sleep 0.5
+xdotool key Alt_L+1
+xdotool key Tab
+xdotool key Tab
+xdotool key Tab
+xdotool key Return
