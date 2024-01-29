@@ -11,23 +11,26 @@ floating_modifier $mod
 # ╹  ┗━┛╹ ╹ ╹ 
 
 #font pango:monospace 11
-font pango:DejaVu Sans Mono 11
+font pango:Agave Nerd Font Mono 11
 
 # ┏━┓╺┳╸┏━┓┏━┓╺┳╸╻ ╻┏━┓
 # ┗━┓ ┃ ┣━┫┣┳┛ ┃ ┃ ┃┣━┛
 # ┗━┛ ╹ ╹ ╹╹┗╸ ╹ ┗━┛╹  
 
-exec --no-startup-id nm-applet
-exec_always --no-startup-id picom
-exec_always --no-startup-id xiccd
-exec_always --no-startup-id feh --bg-scale /home/evoprime/Pictures/Wallpapers/142487-digital-art-Gas-station-Japan-blue-vaporwave.png
+exec_always --no-startup-id picom -b
+exec_always --no-startup-id dispwin -d 1 -I ~/.config/icc/Victus_01.icm 
+exec_always --no-startup-id feh --bg-scale /usr/share/backgrounds/wallp.png
+exec_always --no-startup-id /home/evoprime/.config/scripts/poly_launch.sh 
+exec_always --no-startup-id xinput set-prop "SYNA32B9:00 06CB:CE7D Touchpad" "libinput Tapping Enabled" 1
+exec_always --no-startup-id xinput set-prop "SYNA32B9:00 06CB:CE7D Touchpad" "libinput Natural Scrolling Enabled" 1
 
 # ┏━╸┏━┓┏━┓┏━┓
 # ┃╺┓┣━┫┣━┛┗━┓
 # ┗━┛╹ ╹╹  ┗━┛
 
-#gaps inner 5
-
+default_border pixel 2
+default_floating_border pixel 2
+gaps inner 4
 
 # ╻ ╻┏━┓┏━┓╻┏ ┏━┓┏━┓┏━┓┏━╸┏━╸
 # ┃╻┃┃ ┃┣┳┛┣┻┓┗━┓┣━┛┣━┫┃  ┣╸ 
@@ -35,16 +38,16 @@ exec_always --no-startup-id feh --bg-scale /home/evoprime/Pictures/Wallpapers/14
 
 
 # Define names for default workspaces 
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
+set $ws1 "1: Web"
+set $ws2 "2: Code"
+set $ws3 "3: Terminal"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"  
+set $ws10 "10: Temp"  
 
 
 # switch to workspace
@@ -69,11 +72,11 @@ bindsym $mod+Shift+6 move container to workspace number $ws6
 bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+h move container to workspace number $ws10
+#Temp Windows
+bindsym $mod+z move container to workspace number $ws10
 
-# reload the configuration file
+# Reload
 bindsym $mod+Shift+c reload
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
@@ -112,39 +115,42 @@ bindsym $mod+r mode "resize"
 
 # Use amixer to adjust Volume
 
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 1%+ && $refresh_i3status 
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 1%- && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 1%+ && $refresh_i3status && notify-send -t 1000 amixer -D pulse sget Master | grep 'Left:' | awk -F'[][]' '{ print $2 }'
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 0 -1% && $refresh_i3status && notify-send -t 1000 amixer -D pulse sget Master | grep 'Left:' | awk -F'[][]' '{ print $2 }'
 bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle  && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86MonBrightnessUp   exec --no-startup-id brightnessctl set +5% && notify-send -t 1000 "Brightness at $(brightnessctl g)"
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- && notify-send -t 1000 "Brightness at $(brightnessctl g)"
+bindsym XF86AudioPlay         exec --no-startup-id playerctl play-pause 
+bindsym XF86AudioNext         exec --no-startup-id playerctl next
+bindsym XF86AudioPrev         exec --no-startup-id playerctl previous
 
-bindsym $mod+Return exec kitty
-bindsym $mod+Shift+q kill
+bindsym F7 exec --no-startup-id pactl -- set-sink-volume 0 150% && $refresh_i3status
+
+bindsym $mod+q kill
 
 # WINDOWS 
+
+# change focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Shift+Tab focus up
+bindsym $mod+Right focus right
+bindsym $mod+Tab focus right
+
+# move focused window
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
 
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
-
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -170,20 +176,41 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+Shift+a focus child
+
+bindsym $mod+Control+Right workspace next 
+bindsym $mod+Control+k workspace next 
+bindsym $mod+Control+Left workspace prev
+bindsym $mod+Control+j workspace prev
 
 
-# APPLICATION LAUNCHERS
+
 bindsym $mod+Shift+d exec "dmenu_run -nf '#EEEEEE' -nb '#000000' -sb '#3F3F3F' -sf '#EDEE00' -fn 'monospace-10' -p 'APPS:'"
-bindsym $mod+d exec --no-startup-id xfce4-appfinder 
+#bindsym $mod+d exec --no-startup-id xfce4-appfinder 
 
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5% && notify-send -t 1000 "Brightness at $(brightnessctl g)"
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- && notify-send -t 1000 "Brightness at $(brightnessctl g)"
-bindsym $mod+Shift+S exec --no-startup-id xfce4-screenshooter
-bindsym $mod+Mod1+Right workspace next 
-bindsym $mod+Mod1+Left workspace prev
-bindsym $mod+XF86AudioPlay exec --no-startup-id /opt/deadbeef-1.9.5/deadbeef
-bindsym $mod+Shift+f exec --no-startup-id catfish
+
+#bindsym $mod+Shift+f exec --no-startup-id fsearch
+#bindsym $mod+Shift+v exec --no-startup-id xfce4-popup-clipman
+#bindsym $mod+Shift+S exec --no-startup-id xfce4-screenshooter
+#bindcode 107 exec --no-startup-id xfce4-screenshooter
+bindsym $mod+Return exec kitty
+
+
+
+# ┏━┓┏━┓┏━╸╻
+# ┣┳┛┃ ┃┣╸ ┃
+# ╹┗╸┗━┛╹  ╹
+
+#bindsym Mod1+Tab exec --no-startup-id rofi -show window -show-icons
+bindsym $mod+d exec "/home/evoprime/.config/rofi/launchers/type-7/launcher.sh"
+bindsym $mod+x exec "/home/evoprime/.config/rofi/powermenu/type-1/powermenu-i3.sh"
+
+
+
+
+# ┏┳┓┏━┓╺┳┓┏━╸┏━┓
+# ┃┃┃┃ ┃ ┃┃┣╸ ┗━┓
+# ╹ ╹┗━┛╺┻┛┗━╸┗━┛
 
 ### LOGOUT
 
@@ -191,16 +218,10 @@ mode "evoprime: [l]ogout, [r]eboot, [s]hutdown, loc[k], [w]eb" {
   bindsym l exec i3-msg exit
   bindsym r exec reboot
   bindsym s exec shutdown 0
-  bindsym k  exec --no-startup-id i3lock -i /home/evoprime/Pictures/Wallpapers/i3lock_wallpaper.png -e 
   bindsym w exec webout
   bindsym Escape mode "default"
   bindsym Return mode "default"
 }
-
-bindsym $mod+x mode "evoprime: [l]ogout, [r]eboot, [s]hutdown, loc[k], [w]eb"
-
-set $refresh_i3status killall -SIGUSR1 i3status
-
 
 # ┏━╸┏━┓╻  ┏━┓┏━┓┏━┓
 # ┃  ┃ ┃┃  ┃ ┃┣┳┛┗━┓
@@ -219,28 +240,24 @@ client.background       #FF2500
 # ┣┻┓┣━┫┣┳┛
 # ┗━┛╹ ╹╹┗╸
 
-bar {
-  status_command i3status
-  colors {
-    background #1F1C27
-    statusline #B6B2FF
-    separator  #6666666
-
-    focused_workspace  #B6A0FF #B6A0FF #1F1C27
-    active_workspace   #3B3B3B #3B3B3B #FFFFFF
-    inactive_workspace #3B3B3B #3B3B3B #888888
-    urgent_workspace   #3B3B3B #900000 #FFFFFF
-    binding_mode       #3B3B3B #900000 #FFFFFF
-  }
-}
+# bar {
+#   status_command i3status
+#   colors {
+#     background #1A1425
+#     statusline #B6B2FF
+#     separator  #6666666
+# 
+#     focused_workspace  #B6A0FF #B6A0FF #1F1C27
+#     active_workspace   #3B3B3B #3B3B3B #FFFFFF
+#     inactive_workspace #3B3B3B #3B3B3B #888888
+#     urgent_workspace   #3B3B3B #900000 #FFFFFF
+#     binding_mode       #3B3B3B #900000 #FFFFFF
+#   }
+# }
 
 # ┏┳┓╻┏━┓┏━╸
 # ┃┃┃┃┗━┓┃  
 # ╹ ╹╹┗━┛┗━╸
+ 
+focus_follows_mouse yes 
 
-smart_borders on
-
-for_window [class="Catfish" instance="catfish"] floating enable
-for_window [class="Xfce4-appfinder"] floating enable
-
-focus_follows_mouse no
