@@ -2,7 +2,7 @@
 
 if [ "$EUID" -ne 0 ] || [ "$1" == "-h" ] || [ "$#" -ne 4 ]; then
   echo "Usage: sudo desktoper [Name of .desktop file] [Name of application] [Path to exec] [Path to Icon]"
-  exit 0
+  exit 1
 fi
 
 location=/usr/share/applications/$1.desktop
