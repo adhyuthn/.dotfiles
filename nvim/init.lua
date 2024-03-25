@@ -119,7 +119,7 @@ require('lazy').setup({
         change = { text = '~' },
         delete = { text = '_' },
         topdelete = { text = '‾' },
-        changedelete = { text = '~' },
+       changedelete = { text = '~' },
       },
       on_attach = function(bufnr)
         vim.keymap.set('n', '<leader>gp', require('gitsigns').prev_hunk, { buffer = bufnr, desc = '[G]o to [P]revious Hunk' })
@@ -141,6 +141,7 @@ require('lazy').setup({
   {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
     -- See `:help lualine.txt`
     opts = {
       options = {
@@ -224,6 +225,15 @@ vim.o.mouse = 'a'
 --  See `:help 'clipboard'`
 vim.o.clipboard = 'unnamedplus'
 
+vim.o.list = true
+local space = "·"
+vim.opt.listchars:append {
+	multispace = space,
+	lead = space,
+	trail = space,
+	nbsp = space
+}
+
 -- Enable break indent
 vim.o.breakindent = true
 
@@ -246,6 +256,7 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
+vim.o.rnu = true
 
 -- [[ Basic Keymaps ]]
 
@@ -305,6 +316,13 @@ vim.keymap.set('n', '<leader>se', ":Explore<cr>", { desc = 'Explore navigator' }
 vim.keymap.set('n', '<leader>st', ":Texplore<cr>", { desc = 'Explore navigator (Tabbed)' })
 vim.keymap.set('n', '<leader>ss', ":Sexplore<cr>", { desc = 'Explore navigator (Side)' })
 vim.keymap.set('n', '<leader>sv', ":Vexplore<cr>", { desc = 'Explore navigator (Vertical)' })
+
+vim.keymap.set('v', 'c', '"_c', { noremap = true, desc = 'change (+)' })
+vim.keymap.set('v', 'C', '"_C', { noremap = true, desc = 'change (+)' })
+vim.keymap.set('v', 'x', '"_x', { noremap = true, desc = 'delete char (+)' })
+vim.keymap.set('n', 'c', '"_c', { noremap = true, desc = 'change (+)' })
+vim.keymap.set('n', 'C', '"_C', { noremap = true, desc = 'change (+)' })
+vim.keymap.set('n', 'x', '"_x', { noremap = true, desc = 'delete char (+)' })
 
 -- [[ Configure Treesitter ]]
 -- See `:help nvim-treesitter`
@@ -385,7 +403,7 @@ local on_attach = function(_, bufnr)
   -- to define small helper and utility functions so you don't have to repeat yourself
   -- many times.
   --
-  -- In this case, we create a function that lets us more easily define mappings specific
+  -- In this case, we create a function that lets us more easily define mappings specificinit
   -- for LSP related items. It sets the mode, buffer and description for us each time.
   local nmap = function(keys, func, desc)
     if desc then
@@ -521,9 +539,9 @@ cmp.setup {
 }
 
 vim.cmd([[colorscheme kitty]])
-vim.cmd([[set clipboard+=unnamedplus]])
+-- refer https://vimcolors.org/
+-- vim.cmd([[set clipboard+=unnamedplus]])
 vim.cmd([[set tabstop=4]])
 vim.cmd([[set shiftwidth=4]])
-vim.cmd([[set rnu]])
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

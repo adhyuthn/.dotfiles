@@ -1,0 +1,545 @@
+[apps/seahorse/listing]
+keyrings-selected=['openssh:///home/evoprime/.ssh']
+
+[apps/seahorse/windows/key-manager]
+height=991
+width=1920
+
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/desktop/notifications/application/org-gnome-eog/'
+saved-view='/org/gnome/desktop/notifications/application/org-gnome-eog/'
+show-warning=false
+window-height=975
+window-is-maximized=false
+window-width=948
+
+[com/github/donadigo/eddy]
+mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
+window-x=58
+window-y=92
+
+[io/elementary/appcenter/settings]
+cached-drivers=['nvidia-driver-535-open, (kernel modules provided by nvidia-dkms-535-open)', 'nvidia-driver-535-server-open, (kernel modules provided by nvidia-dkms-535-server-open)', 'nvidia-driver-535-server, (kernel modules provided by nvidia-dkms-535-server)', 'nvidia-driver-545, (kernel modules provided by nvidia-dkms-545)', 'nvidia-driver-525-open, (kernel modules provided by nvidia-dkms-525-open)', 'nvidia-driver-525-server, (kernel modules provided by nvidia-dkms-525-server)', 'nvidia-driver-545-open, (kernel modules provided by nvidia-dkms-545-open)', 'nvidia-driver-470, (kernel modules provided by nvidia-dkms-470)', 'nvidia-driver-470-server, (kernel modules provided by nvidia-dkms-470-server)']
+last-refresh-time=int64 1706524974
+window-maximized=false
+window-size=(1904, 1030)
+
+[org/blueman/general]
+show-toolbar=false
+window-properties=[948, 1023, 964, 8]
+
+[org/blueman/plugins/powermanager]
+auto-power-on=@mb true
+
+[org/blueman/plugins/recentconns]
+recent-connections=[{'adapter': '30:03:C8:0A:84:B4', 'address': '40:C1:F6:59:FB:C6', 'alias': 'OPPO Enco M32', 'icon': 'blueman', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1708660253.4684923'}, {'adapter': '30:03:C8:0A:84:B4', 'address': 'B4:31:61:C7:DF:AA', 'alias': 'realme 7', 'icon': 'phone', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1708660265.4269757'}]
+
+[org/gnome/Disks]
+image-dir-uri='file:///home/evoprime/Athena/Downloads'
+
+[org/gnome/GWeather]
+temperature-unit='centigrade'
+
+[org/gnome/Totem]
+active-plugins=['rotation', 'vimeo', 'autoload-subtitles', 'variable-rate', 'screensaver', 'skipto', 'recent', 'apple-trailers', 'movie-properties', 'save-file', 'open-directory', 'screenshot', 'mpris']
+open-uri='file:///home/evoprime/Videos/Headhunters.2011.NORWEGIAN.1080p.BluRay.H264.AAC-VXT'
+subtitle-encoding='UTF-8'
+
+[org/gnome/Weather]
+locations=[<(uint32 2, <('Kochi', 'VOCI', true, [(0.17724788957066526, 1.3332812582217786)], [(0.17413149947147427, 1.3311626204960751)])>)>]
+
+[org/gnome/baobab/ui]
+window-size=(1904, 1023)
+window-state=87168
+
+[org/gnome/boxes]
+first-run=false
+view='icon-view'
+window-maximized=false
+window-position=[8, 8]
+window-size=[1904, 1023]
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(964, 8)
+word-size=64
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=false
+window-position=(964, 8)
+window-size=(948, 1023)
+
+[org/gnome/cheese]
+burst-delay=1000
+camera='HP Wide Vision HD Camera: HP Wi'
+photo-x-resolution=1280
+photo-y-resolution=720
+video-x-resolution=1280
+video-y-resolution=720
+
+[org/gnome/control-center]
+last-panel='upgrade'
+
+[org/gnome/desktop/a11y/applications]
+screen-magnifier-enabled=false
+
+[org/gnome/desktop/a11y/magnifier]
+mag-factor=5.0
+
+[org/gnome/desktop/app-folders]
+folder-children=['Pop-Office', 'Pop-Utility']
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/evoprime/Wallpapers/doom.jpg'
+picture-uri-dark='file:///home/evoprime/Wallpapers/doom.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/input-sources]
+per-window=false
+sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+document-font-name='Product Sans 12'
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Product Sans 12'
+gtk-theme='Catppuccin-Mocha-Standard-Mauve-Dark'
+text-scaling-factor=1.03
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00']
+
+[org/gnome/desktop/notifications/application/blueman-manager]
+application-id='blueman-manager.desktop'
+
+[org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
+application-id='ca.desrt.dconf-editor.desktop'
+
+[org/gnome/desktop/notifications/application/com-system76-popsicle]
+application-id='com.system76.Popsicle.desktop'
+
+[org/gnome/desktop/notifications/application/easytag]
+application-id='easytag.desktop'
+
+[org/gnome/desktop/notifications/application/feh]
+application-id='feh.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gimp]
+application-id='gimp.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gpick]
+application-id='gpick.desktop'
+
+[org/gnome/desktop/notifications/application/kitty]
+application-id='kitty.desktop'
+
+[org/gnome/desktop/notifications/application/localsend-app]
+application-id='localsend_app.desktop'
+
+[org/gnome/desktop/notifications/application/mountable-volume-2024-01-26-07-14-13-00]
+application-id='mountable-volume:2024-01-26-07-14-13-00.desktop'
+
+[org/gnome/desktop/notifications/application/mountable-volume-3bb4-fc30]
+application-id='mountable-volume:3BB4-FC30.desktop'
+
+[org/gnome/desktop/notifications/application/mountable-volume-a01e31f41e31c456]
+application-id='mountable-volume:A01E31F41E31C456.desktop'
+
+[org/gnome/desktop/notifications/application/mpv]
+application-id='mpv.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-baobab]
+application-id='org.gnome.baobab.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-boxes]
+application-id='org.gnome.Boxes.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-calculator]
+application-id='org.gnome.Calculator.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-calendar]
+application-id='org.gnome.Calendar.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-cheese]
+application-id='org.gnome.Cheese.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-diskutility]
+application-id='org.gnome.DiskUtility.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evince]
+application-id='org.gnome.Evince.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-totem]
+application-id='org.gnome.Totem.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/org-inkscape-inkscape]
+application-id='org.inkscape.Inkscape.desktop'
+
+[org/gnome/desktop/notifications/application/org-kde-kdenlive]
+application-id='org.kde.kdenlive.desktop'
+
+[org/gnome/desktop/notifications/application/org-kicad-eeschema]
+application-id='org.kicad.eeschema.desktop'
+
+[org/gnome/desktop/notifications/application/org-kicad-gerbview]
+application-id='org.kicad.gerbview.desktop'
+
+[org/gnome/desktop/notifications/application/org-kicad-kicad]
+application-id='org.kicad.kicad.desktop'
+
+[org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[org/gnome/desktop/notifications/application/plugdata]
+application-id='plugdata.desktop'
+
+[org/gnome/desktop/notifications/application/simple-scan]
+application-id='simple-scan.desktop'
+
+[org/gnome/desktop/notifications/application/sioyek]
+application-id='sioyek.desktop'
+
+[org/gnome/desktop/notifications/application/tuxtype]
+application-id='tuxtype.desktop'
+
+[org/gnome/desktop/notifications/application/vlc]
+application-id='vlc.desktop'
+
+[org/gnome/desktop/notifications/application/xctu]
+application-id='XCTU.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/peripherals/mouse]
+speed=-0.35766423357664234
+
+[org/gnome/desktop/peripherals/touchpad]
+edge-scrolling-enabled=false
+natural-scroll=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/evoprime/.local/share/backgrounds/2024-02-18-19-03-22-doom.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/search-providers]
+disabled=['org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Calculator.desktop']
+
+[org/gnome/desktop/sound]
+theme-name='freedesktop'
+
+[org/gnome/desktop/wm/keybindings]
+cycle-group=@as []
+cycle-group-backward=@as []
+cycle-windows=['<Super>grave']
+cycle-windows-backward=['<Shift><Super>grave']
+minimize=['<Super>z']
+move-to-center=['<Shift><Super>o']
+move-to-workspace-1=['<Shift><Super>Home', '<Shift><Super>exclam']
+move-to-workspace-2=['<Shift><Super>at']
+move-to-workspace-3=['<Shift><Super>numbersign']
+move-to-workspace-4=['<Shift><Super>dollar']
+move-to-workspace-5=['<Shift><Super>percent']
+move-to-workspace-6=['<Shift><Super>asciicircum']
+move-to-workspace-7=['<Shift><Super>ampersand']
+move-to-workspace-up=['<Super><Shift>Up', '<Super><Shift>k']
+show-desktop=@as []
+switch-applications=['<Alt>Tab']
+switch-applications-backward=['<Shift><Alt>Tab']
+switch-group=['<Alt>grave']
+switch-group-backward=['<Shift><Alt>grave']
+switch-input-source=@as []
+switch-input-source-backward=@as []
+switch-to-workspace-1=['<Super>Home', '<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-5=['<Super>5']
+switch-to-workspace-6=['<Super>6']
+switch-to-workspace-7=['<Super>7']
+switch-to-workspace-down=['<Primary><Super>Down', '<Primary><Super>j']
+switch-windows=['<Super>Tab']
+switch-windows-backward=['<Shift><Super>Tab']
+toggle-fullscreen=['<Super>f']
+
+[org/gnome/desktop/wm/preferences]
+num-workspaces=7
+titlebar-font='Product Sans Bold 11'
+workspace-names=['1', '2', '3', '4', '5', '6', '7']
+
+[org/gnome/easytag]
+default-path=b'/home/evoprime'
+process-remove-spaces=false
+process-uppercase-all=false
+sort-mode='ascending-track-number'
+
+[org/gnome/eog/ui]
+sidebar=false
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince]
+document-directory=@ms 'file:///home/evoprime/Athena/Mimir'
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=false
+sidebar-page='thumbnails'
+sidebar-size=400
+sizing-mode='free'
+window-ratio=(3.7702970297029701, 1.5429864253393666)
+zoom=0.63627647548107524
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/evolution-data-server/calendar]
+notify-window-height=1023
+notify-window-paned-position=34
+notify-window-width=948
+notify-window-x=964
+notify-window-y=8
+reminders-past=['8ba3fc645f72a893108b3cf46812ead2e46938c7\n2a073554a89f0a1939be424b01868aa8c84037cc\t20240325T110000\n1711344000\n1711344600\n1711348200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T110000\r\nDTEND;TZID=Asia/Kolkata:20240205T120000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240325T050159Z\r\nUID:1gqtkm391n1urh24esgif30nl7@google.com\r\nCREATED:20240214T180001Z\r\nLAST-MODIFIED:20240215T045250Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - POM\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:2a073554a89f0a1939be424b01868aa8c84037cc\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\na00a8d5a1083409634ff0f8460ade0ece1187d6a\t20240325T100000\n1711340400\n1711341000\n1711344600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T100000\r\nDTEND;TZID=Asia/Kolkata:20240205T110000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240325T040159Z\r\nUID:36078ihrvfoldq2mtm28k3u08v@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:a00a8d5a1083409634ff0f8460ade0ece1187d6a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\nfbda6195feb4686938bfefe922184675909fde8d\t20240325T090000\n1711336800\n1711337400\n1711341000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T090000\r\nDTEND;TZID=Asia/Kolkata:20240205T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240325T033156Z\r\nUID:64nimt7gope47j8dqr5nkusb4o@google.com\r\nCREATED:20240214T175905Z\r\nLAST-MODIFIED:20240215T045233Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - ITC - WA\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:fbda6195feb4686938bfefe922184675909fde8d\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n99b82215bbe7f8bf33e669c2a6441e8662ff984e\t20240319T090000\n1710818400\n1710819000\n1710822600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T090000\r\nDTEND;TZID=Asia/Kolkata:20240206T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240318T194258Z\r\nUID:6cku39dmkcnmp0tv59cpocl2ir@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:99b82215bbe7f8bf33e669c2a6441e8662ff984e\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n22a0f8ebfd49dce0d54bc44e4cef1a653fb4ae9e\t20240319T080000\n1710814800\n1710815400\n1710819000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T080000\r\nDTEND;TZID=Asia/Kolkata:20240206T090000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240318T194258Z\r\nUID:5so9lu7b4kfpi35dkd4kjbj3qo@google.com\r\nCREATED:20240214T175423Z\r\nLAST-MODIFIED:20240215T045203Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - Embedded\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:22a0f8ebfd49dce0d54bc44e4cef1a653fb4ae9e\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n30cf5bd687c33add352953973c89e0bc5630c0f5\t20240318T110000\n1710739200\n1710739800\n1710743400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T110000\r\nDTEND;TZID=Asia/Kolkata:20240205T120000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240318T100056Z\r\nUID:1gqtkm391n1urh24esgif30nl7@google.com\r\nCREATED:20240214T180001Z\r\nLAST-MODIFIED:20240215T045250Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - POM\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:30cf5bd687c33add352953973c89e0bc5630c0f5\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n674582d9319d7ddd14c68c70ff503d48394e9e90\t20240318T100000\n1710735600\n1710736200\n1710739800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T100000\r\nDTEND;TZID=Asia/Kolkata:20240205T110000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240318T100056Z\r\nUID:36078ihrvfoldq2mtm28k3u08v@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:674582d9319d7ddd14c68c70ff503d48394e9e90\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\nb14cc858e78ac92057caf5625452feed208068eb\t20240318T090000\n1710732000\n1710732600\n1710736200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T090000\r\nDTEND;TZID=Asia/Kolkata:20240205T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240318T100056Z\r\nUID:64nimt7gope47j8dqr5nkusb4o@google.com\r\nCREATED:20240214T175905Z\r\nLAST-MODIFIED:20240215T045233Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - ITC - WA\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:b14cc858e78ac92057caf5625452feed208068eb\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n415c40674e4141c9dcfa2e90823c2594a72e1c27\t20240312T090000\n1710213600\n1710214200\n1710217800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T090000\r\nDTEND;TZID=Asia/Kolkata:20240206T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240312T102550Z\r\nUID:6cku39dmkcnmp0tv59cpocl2ir@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:415c40674e4141c9dcfa2e90823c2594a72e1c27\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\nc1c8410ab8980a893389fa7343fbeb8c3c82b8ee\t20240312T080000\n1710210000\n1710210600\n1710214200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T080000\r\nDTEND;TZID=Asia/Kolkata:20240206T090000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240312T102550Z\r\nUID:5so9lu7b4kfpi35dkd4kjbj3qo@google.com\r\nCREATED:20240214T175423Z\r\nLAST-MODIFIED:20240215T045203Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - Embedded\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:c1c8410ab8980a893389fa7343fbeb8c3c82b8ee\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n4c2d3cbfcdd12e0503cdfc01595f2cae2620150e\t20240311T110000\n1710134400\n1710135000\n1710138600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T110000\r\nDTEND;TZID=Asia/Kolkata:20240205T120000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240310T215431Z\r\nUID:1gqtkm391n1urh24esgif30nl7@google.com\r\nCREATED:20240214T180001Z\r\nLAST-MODIFIED:20240215T045250Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - POM\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:4c2d3cbfcdd12e0503cdfc01595f2cae2620150e\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\nf7a5a67ed056a4924bb8bf3ab5b93a2bffd55c97\t20240311T100000\n1710130800\n1710131400\n1710135000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T100000\r\nDTEND;TZID=Asia/Kolkata:20240205T110000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240310T215431Z\r\nUID:36078ihrvfoldq2mtm28k3u08v@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:f7a5a67ed056a4924bb8bf3ab5b93a2bffd55c97\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n16c285c2c778cfe25ca61075d3307a330fbd4ee0\t20240311T090000\n1710127200\n1710127800\n1710131400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T090000\r\nDTEND;TZID=Asia/Kolkata:20240205T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240310T215431Z\r\nUID:64nimt7gope47j8dqr5nkusb4o@google.com\r\nCREATED:20240214T175905Z\r\nLAST-MODIFIED:20240215T045233Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - ITC - WA\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:16c285c2c778cfe25ca61075d3307a330fbd4ee0\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n9ba3eb2740c05e1ea84a068878ced08189920cb5\t20240305T090000\n1709608800\n1709609400\n1709613000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T090000\r\nDTEND;TZID=Asia/Kolkata:20240206T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240305T034743Z\r\nUID:6cku39dmkcnmp0tv59cpocl2ir@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:9ba3eb2740c05e1ea84a068878ced08189920cb5\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\ne898defdff6df2f9a6da625aa4d281a31da30ece\t20240305T080000\n1709605200\n1709605800\n1709609400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T080000\r\nDTEND;TZID=Asia/Kolkata:20240206T090000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240305T034743Z\r\nUID:5so9lu7b4kfpi35dkd4kjbj3qo@google.com\r\nCREATED:20240214T175423Z\r\nLAST-MODIFIED:20240215T045203Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - Embedded\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:e898defdff6df2f9a6da625aa4d281a31da30ece\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\na34621168b4961ad9e9cf676cf7ea608a30e1180\t20240304T110000\n1709529600\n1709530200\n1709533800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T110000\r\nDTEND;TZID=Asia/Kolkata:20240205T120000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240304T045209Z\r\nUID:1gqtkm391n1urh24esgif30nl7@google.com\r\nCREATED:20240214T180001Z\r\nLAST-MODIFIED:20240215T045250Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - POM\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:a34621168b4961ad9e9cf676cf7ea608a30e1180\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n2132fc20728d3dec328c1c70a14becb6df9a0128\t20240304T100000\n1709526000\n1709526600\n1709530200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T100000\r\nDTEND;TZID=Asia/Kolkata:20240205T110000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240304T045209Z\r\nUID:36078ihrvfoldq2mtm28k3u08v@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:2132fc20728d3dec328c1c70a14becb6df9a0128\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n5b779d8c7986924daa58b04f2fb8041e52d53c3e\t20240304T090000\n1709522400\n1709523000\n1709526600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T090000\r\nDTEND;TZID=Asia/Kolkata:20240205T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240304T045209Z\r\nUID:64nimt7gope47j8dqr5nkusb4o@google.com\r\nCREATED:20240214T175905Z\r\nLAST-MODIFIED:20240215T045233Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - ITC - WA\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:5b779d8c7986924daa58b04f2fb8041e52d53c3e\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n693858382c7d2989b8483a8bb1a492f681458dea\t20240227T090000\n1709004000\n1709004600\n1709008200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T090000\r\nDTEND;TZID=Asia/Kolkata:20240206T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240227T035206Z\r\nUID:6cku39dmkcnmp0tv59cpocl2ir@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:693858382c7d2989b8483a8bb1a492f681458dea\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n6cbb6acf737b783250cb00934fbd53accf1f19a4\t20240227T080000\n1709000400\n1709001000\n1709004600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T080000\r\nDTEND;TZID=Asia/Kolkata:20240206T090000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240227T035206Z\r\nUID:5so9lu7b4kfpi35dkd4kjbj3qo@google.com\r\nCREATED:20240214T175423Z\r\nLAST-MODIFIED:20240215T045203Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - Embedded\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:6cbb6acf737b783250cb00934fbd53accf1f19a4\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n13f5d3c04ea73c3c56be3063228cb5c87889e6e9\t20240226T110000\n1708924800\n1708925400\n1708929000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T110000\r\nDTEND;TZID=Asia/Kolkata:20240205T120000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240226T045814Z\r\nUID:1gqtkm391n1urh24esgif30nl7@google.com\r\nCREATED:20240214T180001Z\r\nLAST-MODIFIED:20240215T045250Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - POM\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:13f5d3c04ea73c3c56be3063228cb5c87889e6e9\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n571bc87fe5e90a35a4cc1c4738bd5eb69a228c68\t20240226T100000\n1708921200\n1708921800\n1708925400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T100000\r\nDTEND;TZID=Asia/Kolkata:20240205T110000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240226T045814Z\r\nUID:36078ihrvfoldq2mtm28k3u08v@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:571bc87fe5e90a35a4cc1c4738bd5eb69a228c68\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n43ea2d6bd87f9001ad17871825a413a28b8d3ce0\t20240226T090000\n1708917600\n1708918200\n1708921800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T090000\r\nDTEND;TZID=Asia/Kolkata:20240205T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240226T045814Z\r\nUID:64nimt7gope47j8dqr5nkusb4o@google.com\r\nCREATED:20240214T175905Z\r\nLAST-MODIFIED:20240215T045233Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - ITC - WA\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:43ea2d6bd87f9001ad17871825a413a28b8d3ce0\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n0b2a5d91006f79004ea90627a09c2063d8997873\t20240220T090000\n1708399200\n1708399800\n1708403400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T090000\r\nDTEND;TZID=Asia/Kolkata:20240206T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240220T050148Z\r\nUID:6cku39dmkcnmp0tv59cpocl2ir@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:0b2a5d91006f79004ea90627a09c2063d8997873\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n9aedf077a704ab573d732acba829b454e85ee809\t20240220T080000\n1708395600\n1708396200\n1708399800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240206T080000\r\nDTEND;TZID=Asia/Kolkata:20240206T090000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20240220T050148Z\r\nUID:5so9lu7b4kfpi35dkd4kjbj3qo@google.com\r\nCREATED:20240214T175423Z\r\nLAST-MODIFIED:20240215T045203Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - Embedded\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:9aedf077a704ab573d732acba829b454e85ee809\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n3927208440d6f0a54f4f09e097484c1f8e78ff56\t20240219T110000\n1708320000\n1708320600\n1708324200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T110000\r\nDTEND;TZID=Asia/Kolkata:20240205T120000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240219T105500Z\r\nUID:1gqtkm391n1urh24esgif30nl7@google.com\r\nCREATED:20240214T180001Z\r\nLAST-MODIFIED:20240215T045250Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - POM\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:3927208440d6f0a54f4f09e097484c1f8e78ff56\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n155a435bd617350a041d1612b27119aa172b51d9\t20240219T100000\n1708316400\n1708317000\n1708320600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T100000\r\nDTEND;TZID=Asia/Kolkata:20240205T110000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240219T105500Z\r\nUID:36078ihrvfoldq2mtm28k3u08v@google.com\r\nCREATED:20240214T175226Z\r\nLAST-MODIFIED:20240215T045122Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - CN\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:155a435bd617350a041d1612b27119aa172b51d9\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8ba3fc645f72a893108b3cf46812ead2e46938c7\n07f446837df41e6c1e02b1ede5df4493622e63fa\t20240219T090000\n1708312800\n1708313400\n1708317000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Kolkata:20240205T090000\r\nDTEND;TZID=Asia/Kolkata:20240205T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nDTSTAMP:20240219T034930Z\r\nUID:64nimt7gope47j8dqr5nkusb4o@google.com\r\nCREATED:20240214T175905Z\r\nLAST-MODIFIED:20240215T045233Z\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Class - ITC - WA\r\nTRANSP:OPAQUE\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-PT10M\r\nDESCRIPTION:This is an event reminder\r\nX-EVOLUTION-ALARM-UID:07f446837df41e6c1e02b1ede5df4493622e63fa\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=507
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=459
+window-width=948
+
+[org/gnome/gedit/plugins]
+active-plugins=['docinfo', 'spell', 'openlinks', 'modelines', 'sort', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/evoprime/Athena/PROJ/CU_embedded_Linux/assignment-2-adhyuthn'
+
+[org/gnome/gedit/preferences/editor]
+scheme='oblivion'
+wrap-last-split-mode='word'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(980, 459)
+state=87168
+
+[org/gnome/gthumb/browser]
+browser-sidebar-width=285
+fullscreen-sidebar='hidden'
+fullscreen-thumbnails-visible=false
+maximized=true
+properties-visible=false
+sidebar-sections=['GthFileProperties:expanded', 'GthFileComment:expanded', 'GthFileDetails:expanded', 'GthImageHistogram:expanded']
+sidebar-visible=true
+sort-inverse=false
+sort-type='file::mtime'
+startup-current-file=''
+startup-location='file:///home/evoprime'
+statusbar-visible=true
+thumbnail-list-visible=true
+viewer-sidebar='hidden'
+
+[org/gnome/gthumb/data-migration]
+catalogs-2-10=true
+
+[org/gnome/gthumb/general]
+active-extensions=['23hq', 'bookmarks', 'burn_disc', 'catalogs', 'change_date', 'comments', 'contact_sheet', 'convert_format', 'desktop_background', 'edit_metadata', 'exiv2_tools', 'file_manager', 'find_duplicates', 'flicker', 'gstreamer_tools', 'gstreamer_utils', 'image_print', 'image_rotation', 'importer', 'jpeg_utils', 'list_tools', 'oauth', 'photo_importer', 'raw_files', 'red_eye_removal', 'rename_series', 'resize_images', 'search', 'selections', 'slideshow', 'terminal', 'webalbums']
+
+[org/gnome/mutter]
+dynamic-workspaces=false
+edge-tiling=false
+overlay-key=''
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=['<Primary><Super>KP_Left']
+toggle-tiled-right=['<Primary><Super>KP_Right']
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
+
+[org/gnome/nautilus/list-view]
+default-zoom-level='standard'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(948, 507)
+maximized=false
+sidebar-width=178
+
+[org/gnome/settings-daemon/plugins/media-keys]
+control-center=['<Super>c']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+email=@as []
+help=@as []
+home=['<Super>e']
+magnifier=['<Primary><Super>z']
+magnifier-zoom-in=['<Super>equal']
+magnifier-zoom-out=['<Super>minus']
+terminal=['<Super>t', '<Super>Return']
+www=@as []
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>v'
+command='copyq show'
+name='copyq'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>b'
+command='gnome-control-center bluetooth'
+name='bluetooth'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>w'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Primary><Shift>Escape'
+command='xkill'
+name='xkill'
+
+[org/gnome/shell]
+command-history=['r']
+disabled-extensions=['ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com']
+enabled-extensions=['pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'cosmic-dock@system76.com', 'popx11gestures@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'cosmic-workspaces@system76.com', 'hidetopbar@mathieu.bidon.ca']
+had-bluetooth-devices-setup=true
+welcome-dialog-last-shown-version='42.5'
+
+[org/gnome/shell/extensions/dash-to-dock]
+manualhide=true
+
+[org/gnome/shell/extensions/hidetopbar]
+enable-active-window=false
+enable-intellihide=false
+mouse-sensitive-fullscreen-window=false
+show-in-overview=false
+
+[org/gnome/shell/extensions/pop-cosmic]
+clock-alignment='RIGHT'
+
+[org/gnome/shell/extensions/pop-shell]
+activate-launcher=['<Super>d']
+active-hint=true
+hint-color-rgba='rgb(182,160,255)'
+show-title=false
+tile-by-default=true
+tile-enter=['<Super>space']
+
+[org/gnome/shell/extensions/user-theme]
+name='Catppuccin-Mocha-Standard-Mauve-Dark'
+
+[org/gnome/shell/keybindings]
+focus-active-notification=@as []
+toggle-message-tray=['<Super>n']
+toggle-overview=@as []
+
+[org/gnome/shell/overrides]
+dynamic-workspaces=false
+
+[org/gnome/shell/weather]
+automatic-location=true
+locations=[<(uint32 2, <('Kochi', 'VOCI', true, [(0.17724788957066526, 1.3332812582217786)], [(0.17413149947147427, 1.3311626204960751)])>)>]
+
+[org/gnome/simple-scan]
+document-type='photo'
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.74901960784313726, 0.25098039215686274, 0.25098039215686274, 1.0), (0.75, 0.25, 0.25, 1.0), (0.0, 0.0, 1.0, 1.0), (1.0, 1.0, 0.0, 1.0), (0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.36470588235294116, 0.35686274509803922, 0.80784313725490198, 1.0), (0.36470588235294121, 0.35686274509803922, 0.80784313725490198, 1.0), (0.0, 0.33333333333333331, 0.41176470588235292, 1.0)]
+selected-color=(true, 0.8784313725490196, 0.10588235294117647, 0.14117647058823529, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=247
+sort-column='modified'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-position=(412, 103)
+window-size=(1096, 822)

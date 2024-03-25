@@ -73,8 +73,7 @@ hi StatusLine gui=bold guibg=#2f2548 guifg=#b6a0ff
 hi StatusLineNC gui=NONE guibg=#1a1425 guifg=#b6a0ff
 hi Search guibg=#a7a7a7 guifg=#b6a0ff
 hi VertSplit gui=NONE guifg=#2f2548 guibg=NONE
-hi Visual gui=NONE guibg=#2f2548
-
+hi Visual gui=NONE guibg=#42335E
 
 
 hi EndOfBuffer guifg=bg   
