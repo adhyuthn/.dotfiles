@@ -175,6 +175,7 @@ alias dgpu='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
 alias installsh='nvim ~/.dotfiles/install.sh'
 alias h='$(history | cut -c 8- | fzf)'
 alias scripts='cd ~/.config/scripts'
+alias backupsh='~/.dotfiles/backup.sh'
 #alias rosser='rosrun rosserial_python serial_node.py'
 #### ENVIRONMENTS
 
