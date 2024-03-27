@@ -288,7 +288,7 @@ application-id='vlc.desktop'
 application-id='XCTU.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [org/gnome/desktop/peripherals/mouse]
 natural-scroll=false
