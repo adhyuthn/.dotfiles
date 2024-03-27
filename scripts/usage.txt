@@ -1,3 +1,0 @@
-uptime - for i3status, in i3 folder
-webout - script to logout from NITC-WIFI
-lowbatt - notification to show when battery is low, doesn't work

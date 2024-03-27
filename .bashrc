@@ -65,7 +65,8 @@ fi
     
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35m\][\@][$?] \[\033[04;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35m\][\@][$?] \[\033[04;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[00;35m\]╭[\@][$?]\n╰ \[\033[00;32m\]\w\$\[\033[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -171,6 +172,9 @@ alias fh='$(history | cut -c 8- | fzf)'
 alias serve='python3 -m http.server && xdg-open http://0.0.0.0:8000/'
 alias expos='cd ~/PROJ/eXpOS/myexpos'
 alias dgpu='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
+alias installsh='nvim ~/.dotfiles/install.sh'
+alias h='$(history | cut -c 8- | fzf)'
+alias scripts='cd ~/.config/scripts'
 #alias rosser='rosrun rosserial_python serial_node.py'
 #### ENVIRONMENTS
 
