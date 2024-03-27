@@ -11,6 +11,7 @@ for dirs in ${back_dirs[@]};do
 	cp -r "/home/evoprime/.config/$dirs" .
 done
 
+git add .
 git commit -am "$(date +"%m.%d")"
 git push
 echo "VScode profiles not backuped"
