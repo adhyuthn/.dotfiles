@@ -288,7 +288,7 @@ application-id='vlc.desktop'
 application-id='XCTU.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=true
+numlock-state=false
 
 [org/gnome/desktop/peripherals/mouse]
 natural-scroll=false
@@ -639,5 +639,5 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(412, 88)
+window-position=(103, 103)
 window-size=(1096, 822)
