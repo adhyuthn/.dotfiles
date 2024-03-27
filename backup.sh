@@ -12,6 +12,6 @@ for dirs in ${back_dirs[@]};do
 done
 
 git add .
-git commit -am "$(date +"%m.%d")"
+git commit -am "v$(date +"%m.%d")"
 git push
 echo "VScode profiles not backuped"
