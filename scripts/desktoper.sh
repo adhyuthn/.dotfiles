@@ -21,4 +21,4 @@ Icon=$4
 #Keywords=a;b;c;d;
 EOF
 
-sudoedit $location
+nvim $location

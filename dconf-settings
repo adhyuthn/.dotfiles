@@ -41,7 +41,7 @@ auto-power-on=@mb true
 recent-connections=[{'adapter': '30:03:C8:0A:84:B4', 'address': '40:C1:F6:59:FB:C6', 'alias': 'OPPO Enco M32', 'icon': 'blueman', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1708660253.4684923'}, {'adapter': '30:03:C8:0A:84:B4', 'address': 'B4:31:61:C7:DF:AA', 'alias': 'realme 7', 'icon': 'phone', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1708660265.4269757'}]
 
 [org/gnome/Disks]
-image-dir-uri='file:///home/evoprime/Athena/Downloads'
+image-dir-uri='file:///home/evoprime/PI_backups'
 
 [org/gnome/GWeather]
 temperature-unit='centigrade'
@@ -63,7 +63,7 @@ first-run=false
 view='icon-view'
 window-maximized=false
 window-position=[8, 8]
-window-size=[1904, 1023]
+window-size=[1904, 1030]
 
 [org/gnome/calculator]
 accuracy=9
@@ -95,7 +95,7 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='sound'
+last-panel='wifi'
 
 [org/gnome/desktop/a11y/applications]
 screen-magnifier-enabled=false
@@ -316,6 +316,7 @@ disabled=['org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome
 theme-name='freedesktop'
 
 [org/gnome/desktop/wm/keybindings]
+close=['<Alt>F4', '<Super>q']
 cycle-group=@as []
 cycle-group-backward=@as []
 cycle-windows=['<Super>grave']
@@ -411,7 +412,7 @@ sort-type='ascending'
 
 [org/gnome/file-roller/ui]
 sidebar-width=200
-window-height=459
+window-height=463
 window-width=948
 
 [org/gnome/gedit/plugins]
@@ -420,7 +421,7 @@ active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'so
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/evoprime/hell'
+virtual-root='file:///home/evoprime/Athena/Downloads/create_ap-master'
 
 [org/gnome/gedit/preferences/editor]
 scheme='oblivion'
@@ -433,8 +434,8 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(948, 463)
-state=87168
+size=(948, 958)
+state=87040
 
 [org/gnome/gthumb/browser]
 browser-sidebar-width=285
@@ -483,7 +484,7 @@ search-view='list-view'
 
 [org/gnome/nautilus/window-state]
 initial-size=(948, 1030)
-maximized=false
+maximized=true
 sidebar-width=212
 
 [org/gnome/settings-daemon/plugins/media-keys]
@@ -634,10 +635,10 @@ location-mode='path-bar'
 show-hidden=false
 show-size-column=true
 show-type-column=true
-sidebar-width=247
+sidebar-width=184
 sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(103, 103)
-window-size=(1096, 822)
+window-position=(328, 88)
+window-size=(1263, 822)

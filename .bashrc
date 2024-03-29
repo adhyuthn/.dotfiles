@@ -168,6 +168,7 @@ alias ninstall='sudo nala install'
 alias nsearch='nala search'
 alias nremove='sudo nala remove'
 alias nupgrate='sudo nala update && sudo nala upgrade'
+alias nlist='nala list'
 alias fh='$(history | cut -c 8- | fzf)'
 alias serve='python3 -m http.server && xdg-open http://0.0.0.0:8000/'
 alias expos='cd ~/PROJ/eXpOS/myexpos'
@@ -176,6 +177,7 @@ alias installsh='nvim ~/.dotfiles/install.sh'
 alias h='$(history | cut -c 8- | fzf)'
 alias scripts='cd ~/.config/scripts'
 alias backupsh='~/.dotfiles/backup.sh'
+
 #alias rosser='rosrun rosserial_python serial_node.py'
 #### ENVIRONMENTS
 

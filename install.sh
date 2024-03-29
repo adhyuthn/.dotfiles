@@ -24,7 +24,9 @@ sudo wget -qO /etc/apt/trusted.gpg.d/papirus-ppa.asc 'https://keyserver.ubuntu.c
 # Remove Bloatware
 sudo apt remove geary \
 		pop-shop \
-
+		gnome-contacts \
+		gnome-online-accounts \
+		gnome-weather
 # Install Apps from apt
 sudo apt update && sudo apt upgrade
 sudo apt install ranger \
