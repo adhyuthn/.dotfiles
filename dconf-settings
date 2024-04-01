@@ -7,12 +7,12 @@ width=1920
 
 [ca/desrt/dconf-editor]
 bookmarks=['/org/gnome/desktop/interface/font-name']
-saved-pathbar-path='/org/gnome/desktop/wm/preferences/workspace-names'
-saved-view='/org/gnome/desktop/wm/preferences/workspace-names'
+saved-pathbar-path='/org/gnome/desktop/wm/keybindings/switch-panels'
+saved-view='/org/gnome/desktop/wm/keybindings/switch-panels'
 show-warning=false
-window-height=948
-window-is-maximized=true
-window-width=1904
+window-height=982
+window-is-maximized=false
+window-width=948
 
 [com/github/donadigo/eddy]
 mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
@@ -95,7 +95,7 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='sound'
 
 [org/gnome/desktop/a11y/applications]
 screen-magnifier-enabled=false
@@ -150,13 +150,16 @@ text-scaling-factor=1.0
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel']
+application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code']
 
 [org/gnome/desktop/notifications/application/blueman-manager]
 application-id='blueman-manager.desktop'
 
 [org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
 application-id='ca.desrt.dconf-editor.desktop'
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
 
 [org/gnome/desktop/notifications/application/com-system76-popsicle]
 application-id='com.system76.Popsicle.desktop'
@@ -380,12 +383,12 @@ dual-page-odd-left=false
 enable-spellchecking=true
 fullscreen=false
 inverted-colors=false
-show-sidebar=false
+show-sidebar=true
 sidebar-page='thumbnails'
-sidebar-size=400
+sidebar-size=32
 sizing-mode='free'
-window-ratio=(3.7702970297029701, 1.5429864253393666)
-zoom=0.63627647548107524
+window-ratio=(1.5679024242057999, 0.5590993689553394)
+zoom=1.2243820629814781
 
 [org/gnome/evolution-data-server]
 migrated=true
@@ -483,8 +486,8 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(948, 1030)
-maximized=true
+initial-size=(1920, 1046)
+maximized=false
 sidebar-width=212
 
 [org/gnome/settings-daemon/plugins/media-keys]
@@ -533,6 +536,7 @@ sleep-inactive-battery-type='suspend'
 
 [org/gnome/shell]
 command-history=['r']
+disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com', 'paperwm@paperwm.github.com']
 enabled-extensions=['pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'cosmic-dock@system76.com', 'popx11gestures@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'cosmic-workspaces@system76.com', 'hidetopbar@mathieu.bidon.ca']
 had-bluetooth-devices-setup=true
@@ -586,6 +590,8 @@ show-workspaces-button=false
 [org/gnome/shell/extensions/pop-shell]
 activate-launcher=['<Super>d']
 active-hint=true
+gap-inner=uint32 0
+gap-outer=uint32 0
 hint-color-rgba='rgb(182,160,255)'
 show-title=false
 tile-by-default=true
@@ -632,13 +638,13 @@ selected-color=(true, 1.0, 1.0, 1.0, 1.0)
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=true
+show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=184
-sort-column='name'
+sort-column='modified'
 sort-directories-first=false
-sort-order='ascending'
+sort-order='descending'
 type-format='category'
-window-position=(328, 88)
+window-position=(328, 103)
 window-size=(1263, 822)
