@@ -67,7 +67,6 @@ fi
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35m\][\@][$?] \[\033[04;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
     PS1='${debian_chroot:+($debian_chroot)}\[\033[00;35m\]╭[\@][$?]\n╰ \[\033[00;32m\]\w\$\[\033[00m\] '
-    #PS1='${debian_chroot:+($debian_chroot)}\[\033[00;35m\] Ayan@asus: \[\033[00m\]'
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[00;35m\]╭[\@][$?] Adhyuth\n╰ \[\033[00;32m\]\w\$\[\033[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -134,7 +133,9 @@ fi
 # \___/\____/___/ /_/  \____/_/  /_/            
 
 ### ROS
+#export ROS_DOMAIN_ID=5
 source /opt/ros/humble/setup.bash
+alias microros="source /home/evoprime/PROJ/ROS/microros_ws/microros_ws/install/local_setup.bash && cd /home/evoprime/PROJ/ROS/microros_ws/microros_ws/"
 
 # PATH
 
@@ -179,16 +180,12 @@ alias installsh='nvim ~/.dotfiles/install.sh'
 alias h='$(history | cut -c 8- | fzf)'
 alias scripts='cd ~/.config/scripts'
 alias backupsh='~/.dotfiles/backup.sh'
-
+alias m='musikcube'
 #alias rosser='rosrun rosserial_python serial_node.py'
 #### ENVIRONMENTS
 
 LANG=C.UTF-8
 
-####  ROS WORKSPACES
-#source /home/evoprime/PROJ/RIG/Agribot2022-main/real_ws/devel/setup.sh
-#source /home/evoprime/PROJ/RIG/Agribot2022-main/real_ws/devel/setup.sh
-#source /home/evoprime/PROJ/RIG/Agribot2022-main/real_ws/devel/setup.sh
-#source /home/evoprime/PROJ/RIG/robocon_ws/devel/setup.sh
-#alias agribot='source /home/evoprime/PROJ/RIG/Agribot/ROSws/devel/setup.sh'
-#alias dojows='source /home/evoprime/Athena/PROJ/ROS/dojo_ws/devel/setup.bash'
+# OTHER STUFF TO SOURCE
+source /opt/ble.sh/out/ble.sh --rcfile "$HOME/.blerc"
+
