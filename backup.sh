@@ -13,6 +13,7 @@ for dirs in ${back_dirs[@]};do
 done
 
 cd $location
+git pull
 git commit -am "v$(date +"%m.%d")"
 git push
 echo "VScode profiles not backuped"
