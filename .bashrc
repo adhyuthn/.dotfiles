@@ -66,7 +66,8 @@ fi
 
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35m\][\@][$?] \[\033[04;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[00;35m\]╭[\@][$?]\n╰ \[\033[00;32m\]\w\$\[\033[00m\] '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[38;5;210m\]╭[\@][$?]\n╰ \[\033[38;5;79m\]\w \033[38;5;229m\]➜ \[\033[00m\]'
+    #PS1='${debian_chroot:+($debian_chroot)}\[\033[38;5;210m\]╭[\@][$?]\[\033[38;5;79m\] \w \n\[\033[38;5;210m\]╰ '
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[00;35m\]╭[\@][$?] Adhyuth\n╰ \[\033[00;32m\]\w\$\[\033[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -142,6 +143,8 @@ alias microros="source /home/evoprime/PROJ/ROS/microros_ws/microros_ws/install/l
 # DEFAULTS
 export VISUAL='nvim'
 export EDITOR="$VISUAL"
+export MANPAGER='nvim +Man!'
+
 #alias tmux="tmux -u"
 alias fixvol='alsactl restore -P'
 #alias neofetch='neofetch --w3m /home/evoprime/Pictures/Wallpapers/The_Batman.png'
@@ -158,7 +161,6 @@ alias i3config='nvim ~/.config/i3/config'
 alias piconf='nvim ~/.config/picom/picom.conf'
 alias wl='/home/evoprime/PROJ/bash_Playground/logout.sh'
 alias p3='python3'
-alias ter='termusic ~/Music/'
 alias musikcube='TERM=xterm-256color musikcube'
 alias kissh='kitty +kitten ssh'
 alias graphics='sudo system76-power graphics'
@@ -177,15 +179,41 @@ alias serve='python3 -m http.server && xdg-open http://0.0.0.0:8000/'
 alias expos='cd ~/PROJ/eXpOS/myexpos'
 alias dgpu='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
 alias installsh='nvim ~/.dotfiles/install.sh'
-alias h='$(history | cut -c 8- | fzf)'
+# alias h='$(history | cut -c 8- | fzf)' #REPLACED WITH Atuin
 alias scripts='cd ~/.config/scripts'
-alias backupsh='~/.dotfiles/backup.sh'
+alias backupsh='cd $HOME/.dotfiles/ && ./backup.sh'
 alias m='musikcube'
-#alias rosser='rosrun rosserial_python serial_node.py'
-#### ENVIRONMENTS
+alias fixhot='nmcli r wifi off && rfkill unblock wlan'
+alias nv='nvim -R'
+alias code='code --profile=evoprime' #code behaving weird
+alias rmr='rm -r'
 
+# FUNCTIONS
+function dojo() {
+    cd $HOME/PROJ/$1/dojo/
+}
+
+function powsave() {
+    sudo system76-power graphics intel
+    sudo system76-power profile battery
+    xrandr -r 60
+}
+
+function listcol() {
+    color=16;
+    while [ $color -lt 245 ]; do
+        echo -e "$color: \\033[38;5;${color}mhello\\033[48;5;${color}mworld\\033[0m"
+        ((color++));
+    done  
+}
+
+#### ENVIRONMENTS
 LANG=C.UTF-8
 
-# OTHER STUFF TO SOURCE
+# BASH Add-ons
 source /opt/ble.sh/out/ble.sh --rcfile "$HOME/.blerc"
 
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash --disable-up-arrow)"
+
+. "$HOME/.cargo/env"
