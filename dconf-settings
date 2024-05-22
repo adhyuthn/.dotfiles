@@ -31,11 +31,11 @@ width=1920
 
 [ca/desrt/dconf-editor]
 bookmarks=['/org/gnome/desktop/interface/font-name']
-saved-pathbar-path='font'
-saved-view='/org/cinnamon/desktop/wm/preferences/titlebar-font'
+saved-pathbar-path='notifi'
+saved-view='/org/gnome/desktop/notifications/'
 show-warning=false
 window-height=472
-window-is-maximized=false
+window-is-maximized=true
 window-width=960
 
 [com/github/donadigo/eddy]
@@ -50,7 +50,7 @@ enable=true
 custom-font='SF Pro 13'
 
 [desktop/ibus/panel/emoji]
-favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥']
+favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠']
 font='SF Pro 13'
 
 [io/elementary/appcenter/settings]
@@ -111,7 +111,7 @@ source-currency=''
 source-units='degree'
 target-currency=''
 target-units='radian'
-window-position=(960, 0)
+window-position=(0, 24)
 word-size=64
 
 [org/gnome/calendar]
@@ -125,6 +125,7 @@ burst-delay=1000
 camera='HP Wide Vision HD Camera: HP Wi'
 photo-x-resolution=1280
 photo-y-resolution=720
+selected-effect='No Effect'
 video-x-resolution=1280
 video-y-resolution=720
 
@@ -180,7 +181,8 @@ text-scaling-factor=1.0
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor']
+application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet']
+show-in-lock-screen=true
 
 [org/gnome/desktop/notifications/application/blueman-manager]
 application-id='blueman-manager.desktop'
@@ -236,6 +238,9 @@ application-id='localsend_app.desktop'
 [org/gnome/desktop/notifications/application/mountable-volume-2024-01-26-07-14-13-00]
 application-id='mountable-volume:2024-01-26-07-14-13-00.desktop'
 
+[org/gnome/desktop/notifications/application/mountable-volume-3130-6338]
+application-id='mountable-volume:3130-6338.desktop'
+
 [org/gnome/desktop/notifications/application/mountable-volume-3bb4-fc30]
 application-id='mountable-volume:3BB4-FC30.desktop'
 
@@ -247,6 +252,9 @@ application-id='mpv.desktop'
 
 [org/gnome/desktop/notifications/application/nemo]
 application-id='nemo.desktop'
+
+[org/gnome/desktop/notifications/application/nm-applet]
+application-id='nm-applet.desktop'
 
 [org/gnome/desktop/notifications/application/org-fontforge-fontforge]
 application-id='org.fontforge.FontForge.desktop'
@@ -308,6 +316,9 @@ application-id='org.inkscape.Inkscape.desktop'
 [org/gnome/desktop/notifications/application/org-kde-kdenlive]
 application-id='org.kde.kdenlive.desktop'
 
+[org/gnome/desktop/notifications/application/org-kde-krita]
+application-id='org.kde.krita.desktop'
+
 [org/gnome/desktop/notifications/application/org-kicad-eeschema]
 application-id='org.kicad.eeschema.desktop'
 
@@ -358,6 +369,7 @@ report-technical-problems=false
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
+lock-delay=uint32 0
 picture-options='zoom'
 picture-uri='file:///home/evoprime/.local/share/backgrounds/2024-03-26-21-31-07-doom.jpg'
 primary-color='#000000000000'
@@ -365,6 +377,9 @@ secondary-color='#000000000000'
 
 [org/gnome/desktop/search-providers]
 disabled=['org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Calculator.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
 
 [org/gnome/desktop/sound]
 theme-name='Pop'
@@ -435,12 +450,12 @@ dual-page-odd-left=false
 enable-spellchecking=true
 fullscreen=false
 inverted-colors=false
-show-sidebar=true
+show-sidebar=false
 sidebar-page='thumbnails'
 sidebar-size=400
 sizing-mode='free'
-window-ratio=(3.2268907563025211, 1.2066508313539193)
-zoom=0.74285149270415285
+window-ratio=(4.0712468193384224, 1.6302984700275898)
+zoom=0.89741018198919453
 
 [org/gnome/evolution-data-server]
 migrated=true
@@ -482,7 +497,7 @@ active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'so
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/evoprime/PROJ/CU_embedded_Linux/assignment-2-adhyuthn/finder-app'
+virtual-root='file:///home/evoprime/Athena/PROJ/CPP/crow'
 
 [org/gnome/gedit/preferences/editor]
 scheme='oblivion'
@@ -495,7 +510,7 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(960, 472)
+size=(480, 472)
 state=87168
 
 [org/gnome/gnome-system-monitor]
@@ -569,9 +584,17 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(960, 1040)
+initial-size=(1920, 1040)
 maximized=false
 sidebar-width=184
+
+[org/gnome/nm-applet/eap/13bd2bf8-b602-424d-ad1c-64b95a72f23c]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/292f8973-0add-4ea1-92df-25692f3df25f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
 
 [org/gnome/power-manager]
 info-history-graph-smooth=true
@@ -629,7 +652,7 @@ sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='suspend'
 
 [org/gnome/shell]
-command-history=['r']
+command-history=['r', 'gnome-session-properties']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com', 'paperwm@paperwm.github.com']
 enabled-extensions=['pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'cosmic-dock@system76.com', 'popx11gestures@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'cosmic-workspaces@system76.com', 'hidetopbar@mathieu.bidon.ca']
@@ -743,7 +766,7 @@ window-size=(1009, 654)
 
 [org/gtk/settings/color-chooser]
 custom-colors=[(0.74901960784313726, 0.25098039215686274, 0.25098039215686274, 1.0), (0.75, 0.25, 0.25, 1.0), (0.0, 0.0, 1.0, 1.0), (1.0, 1.0, 0.0, 1.0), (0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.36470588235294116, 0.35686274509803922, 0.80784313725490198, 1.0), (0.36470588235294121, 0.35686274509803922, 0.80784313725490198, 1.0), (0.0, 0.33333333333333331, 0.41176470588235292, 1.0)]
-selected-color=(true, 0.96470588235294119, 0.38039215686274508, 0.31764705882352939, 1.0)
+selected-color=(true, 0.92941176470588238, 0.20000000000000001, 0.23137254901960785, 1.0)
 
 [org/gtk/settings/emoji-chooser]
 recent-emoji=[(([uint32 128514], 'face with tears of joy', ''), uint32 0)]
@@ -755,9 +778,9 @@ show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=197
-sort-column='size'
+sort-column='modified'
 sort-directories-first=false
-sort-order='ascending'
+sort-order='descending'
 type-format='category'
 window-position=(328, 103)
 window-size=(1263, 822)
@@ -772,8 +795,12 @@ show-home-icon-toolbar=false
 show-location-entry=true
 show-open-in-terminal-toolbar=true
 
+[org/nemo/search]
+search-content-case-sensitive=false
+search-content-use-regex=false
+
 [org/nemo/window-state]
-geometry='1920x1040+0+0'
+geometry='960x1040+960+0'
 maximized=false
 side-pane-view='places'
 sidebar-bookmark-breakpoint=8

@@ -193,6 +193,10 @@ function dojo() {
     cd $HOME/PROJ/$1/dojo/
 }
 
+function dsa() {
+    cd $HOME/PROJ/$1/DSA/
+}
+
 function powsave() {
     sudo system76-power graphics intel
     sudo system76-power profile battery
