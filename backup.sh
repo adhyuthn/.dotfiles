@@ -1,4 +1,4 @@
-location="/home/.dotfiles/"
+location="$HOME/.dotfiles/"
 back_file=("/home/evoprime/.bashrc" "/home/evoprime/.blerc" "/home/evoprime/.tmux.conf")
 back_dirs=("sioyek" "scripts" "rofi" "ranger" "polybar" "picom" "nvim" "mpv" "kitty" "icc" "i3status" "i3" "dunst" "cava")
 
