@@ -31,12 +31,12 @@ width=1920
 
 [ca/desrt/dconf-editor]
 bookmarks=['/org/gnome/desktop/interface/font-name']
-saved-pathbar-path='notifi'
-saved-view='/org/gnome/desktop/notifications/'
+saved-pathbar-path='/org/gnome/desktop/background/picture-opacity'
+saved-view='/org/gnome/desktop/background/picture-opacity'
 show-warning=false
-window-height=472
-window-is-maximized=true
-window-width=960
+window-height=992
+window-is-maximized=false
+window-width=1920
 
 [com/github/donadigo/eddy]
 mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
@@ -136,7 +136,7 @@ last-panel='wifi'
 screen-magnifier-enabled=false
 
 [org/gnome/desktop/a11y/magnifier]
-mag-factor=2.0
+mag-factor=1.0
 
 [org/gnome/desktop/app-folders]
 folder-children=['Pop-Utility']
@@ -181,7 +181,7 @@ text-scaling-factor=1.0
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet']
+application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet', 'com-obsproject-studio', 'mountable-volume-e9a8-9d9a']
 show-in-lock-screen=true
 
 [org/gnome/desktop/notifications/application/blueman-manager]
@@ -192,6 +192,9 @@ application-id='ca.desrt.dconf-editor.desktop'
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-obsproject-studio]
+application-id='com.obsproject.Studio.desktop'
 
 [org/gnome/desktop/notifications/application/com-system76-popsicle]
 application-id='com.system76.Popsicle.desktop'
@@ -246,6 +249,9 @@ application-id='mountable-volume:3BB4-FC30.desktop'
 
 [org/gnome/desktop/notifications/application/mountable-volume-a01e31f41e31c456]
 application-id='mountable-volume:A01E31F41E31C456.desktop'
+
+[org/gnome/desktop/notifications/application/mountable-volume-e9a8-9d9a]
+application-id='mountable-volume:E9A8-9D9A.desktop'
 
 [org/gnome/desktop/notifications/application/mpv]
 application-id='mpv.desktop'
@@ -528,6 +534,12 @@ col-6-width=0
 [org/gnome/gnome-system-monitor/proctree]
 col-1-visible=true
 col-1-width=30
+col-12-visible=true
+col-12-width=58
+col-15-visible=true
+col-15-width=30
+col-19-visible=true
+col-19-width=139
 col-2-visible=true
 col-2-width=0
 col-8-visible=true
@@ -535,7 +547,7 @@ col-8-width=30
 col-9-visible=true
 col-9-width=218
 columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-sort-col=2
+sort-col=19
 sort-order=0
 
 [org/gnome/gthumb/browser]
@@ -584,12 +596,16 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(832, 1040)
+initial-size=(1920, 1040)
 maximized=false
 sidebar-width=184
 
 [org/gnome/nm-applet/eap/13bd2bf8-b602-424d-ad1c-64b95a72f23c]
 ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/229635df-1b70-4fb1-8500-a79c7d8fb236]
+ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/292f8973-0add-4ea1-92df-25692f3df25f]
@@ -601,6 +617,10 @@ ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/d60858c7-815c-4299-8b2b-9d976d37bc79]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/ff88cc46-cd07-4245-8662-37bfae2f0647]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -782,7 +802,7 @@ recent-emoji=[(([uint32 128514], 'face with tears of joy', ''), uint32 0)]
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=202

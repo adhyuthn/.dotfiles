@@ -159,7 +159,6 @@ alias polyconf='nvim ~/.config/polybar/config.ini'
 alias kittyconf='nvim ~/.config/kitty/kitty.conf'
 alias i3config='nvim ~/.config/i3/config'
 alias piconf='nvim ~/.config/picom/picom.conf'
-alias wl='/home/evoprime/PROJ/bash_Playground/logout.sh'
 alias p3='python3'
 alias musikcube='TERM=xterm-256color musikcube'
 alias kissh='kitty +kitten ssh'
@@ -187,6 +186,8 @@ alias fixhot='nmcli r wifi off && rfkill unblock wlan'
 alias nv='nvim -R'
 alias code='code --profile=evoprime' #code behaving weird
 alias rmr='rm -r'
+alias rl='readlink'
+alias rlf='readlink -f'
 
 # FUNCTIONS
 function dojo() {
