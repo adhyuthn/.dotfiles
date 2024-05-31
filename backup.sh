@@ -4,6 +4,7 @@ back_dirs=("sioyek" "scripts" "rofi" "ranger" "polybar" "picom" "nvim" "mpv" "ki
 
 dconf dump / > dconf-settings
 
+cd $location
 for files in ${back_file[@]};do 
 	cp $files .
 done
@@ -12,7 +13,7 @@ for dirs in ${back_dirs[@]};do
 	cp -r "/home/evoprime/.config/$dirs" .
 done
 
-cd $location
+git add .
 git pull
 git commit -am "v$(date +"%m.%d")"
 git push
