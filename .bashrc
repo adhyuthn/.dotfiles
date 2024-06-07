@@ -183,11 +183,12 @@ alias scripts='cd ~/.config/scripts'
 alias backupsh='cd $HOME/.dotfiles/ && ./backup.sh'
 alias m='musikcube'
 alias fixhot='nmcli r wifi off && rfkill unblock wlan'
-alias nv='nvim -R'
+alias nr='nvim -R'
 alias code='code --profile=evoprime' #code behaving weird
 alias rmr='rm -r'
 alias rl='readlink'
 alias rlf='readlink -f'
+alias tess='tesseract /dev/null'
 
 # FUNCTIONS
 function dojo() {
@@ -202,6 +203,11 @@ function powsave() {
     sudo system76-power graphics intel
     sudo system76-power profile battery
     xrandr -r 60
+}
+
+function tess() {
+    tesseract $1 /tmp/TESS
+    cat /tmp/TESS.txt
 }
 
 function listcol() {

@@ -1,12 +1,26 @@
+#!/usr/bin/bash
+
 #################################
 #	INSTALL SCRIPT v3.26	#
 #################################
 
-echo "1) Am I executing this script inside the .dotfiles directory which itself is inside ~?\n
-2)Did I install the catppuccin or whatever theme properly\n
-3)Is Athena automounted?\n
-(y/n)"
 
+echo "1) Am I executing this script inside the .dotfiles directory which itself is inside ~ ?
+2) Did I install the catppuccin or whatever theme properly
+3) Is Athena automounted?
+4) Went through the script?"
+
+echo  "-----------------------------------"
+PS3="PROCEED?: "
+select opt in yes no
+do 
+	case $opt in 
+		yes)
+			break;;
+		no)
+			exit 1;;
+	esac
+done
 # move essential scripts
 cp .bashrc ~/.bashrc
 cp -r $(ls -d -1 */) ~/.config/
@@ -42,6 +56,8 @@ sudo apt install ranger \
 		 feh \
 		 fzf \
 		 plocate \
+		 tesseract-ocr \
+
 
 # Install Apps from packages
 sudo apt install ./code.deb
@@ -108,5 +124,5 @@ echo "Setting up finished. Consider installing these manually :\n
       1) matlab \n
       2) musikcube \n
       3) JetBrains Mono Font 
-      4) Product Sans Font\n
+      4) San Francisco Font\n
       "

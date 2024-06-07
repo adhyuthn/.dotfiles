@@ -108,7 +108,7 @@ require('lazy').setup({
         icons_enabled = false,
         theme = 'dracula',
         component_separators = '',
-        section_separators = '',
+        section_separators = { left = '', right = ''},
       },
     },
   },
@@ -283,6 +283,10 @@ vim.keymap.set('v', 'x', '"_x', { noremap = true, desc = 'delete char (+)' })
 vim.keymap.set('n', 'c', '"_c', { noremap = true, desc = 'change (+)' })
 vim.keymap.set('n', 'C', '"_C', { noremap = true, desc = 'change (+)' })
 vim.keymap.set('n', 'x', '"_x', { noremap = true, desc = 'delete char (+)' })
+vim.keymap.set('v', 'al', ':<C-U>normal 0v$h<CR>', { noremap = true, desc = 'select a line'} )
+vim.keymap.set('v', 'il', ':<C-U>normal ^vg_<CR>', { noremap = true, desc = 'select inside line'} )
+vim.keymap.set('n', 'al', ':normal val<CR>', { noremap = true, desc = 'select a line'} )
+vim.keymap.set('n', 'il', ':normal vil<CR>', { noremap = true, desc = 'select inside line'} )
 
 -- [[ Configure Treesitter ]]
 -- See `:help nvim-treesitter`
