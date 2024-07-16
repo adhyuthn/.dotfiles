@@ -34,9 +34,9 @@ bookmarks=['/org/gnome/desktop/interface/font-name']
 saved-pathbar-path='/org/gnome/desktop/background/picture-opacity'
 saved-view='/org/gnome/desktop/background/picture-opacity'
 show-warning=false
-window-height=992
+window-height=962
 window-is-maximized=false
-window-width=1920
+window-width=1896
 
 [com/github/donadigo/eddy]
 mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
@@ -46,11 +46,14 @@ window-y=92
 [com/system76/hidpi]
 enable=true
 
+[com/uploadedlobster/peek]
+persist-window-geometry=(492, 360, 500, 300)
+
 [desktop/ibus/panel]
 custom-font='SF Pro 13'
 
 [desktop/ibus/panel/emoji]
-favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠']
+favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠', '🤖', '🦾', '🔴', '✔', 'ඞ', '🙋', '🐍']
 font='SF Pro 13'
 
 [io/elementary/appcenter/settings]
@@ -89,21 +92,21 @@ subtitle-encoding='UTF-8'
 locations=[<(uint32 2, <('Kochi', 'VOCI', true, [(0.17724788957066526, 1.3332812582217786)], [(0.17413149947147427, 1.3311626204960751)])>)>]
 
 [org/gnome/baobab/ui]
-window-size=(1904, 1023)
+window-size=(942, 499)
 window-state=87168
 
 [org/gnome/boxes]
 first-run=false
 view='icon-view'
 window-maximized=false
-window-position=[0, 0]
-window-size=[1920, 1040]
+window-position=[12, 12]
+window-size=[1896, 1010]
 
 [org/gnome/calculator]
 accuracy=9
 angle-units='degrees'
 base=10
-button-mode='programming'
+button-mode='basic'
 number-format='automatic'
 show-thousands=false
 show-zeroes=false
@@ -111,14 +114,14 @@ source-currency=''
 source-units='degree'
 target-currency=''
 target-units='radian'
-window-position=(0, 24)
+window-position=(678, 36)
 word-size=64
 
 [org/gnome/calendar]
 active-view='month'
 window-maximized=false
-window-position=(960, 0)
-window-size=(960, 1040)
+window-position=(12, 36)
+window-size=(1896, 986)
 
 [org/gnome/cheese]
 burst-delay=1000
@@ -130,13 +133,13 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='wifi'
 
 [org/gnome/desktop/a11y/applications]
 screen-magnifier-enabled=false
 
 [org/gnome/desktop/a11y/magnifier]
-mag-factor=2.0
+mag-factor=1.0
 
 [org/gnome/desktop/app-folders]
 folder-children=['Pop-Utility']
@@ -154,10 +157,10 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/evoprime/.local/share/eog-wallpaper.jpg'
-picture-uri-dark='file:///home/evoprime/.local/share/eog-wallpaper.jpg'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri='file:///home/evoprime/Wallpapers/retro.jpg'
+picture-uri-dark='file:///home/evoprime/Wallpapers/retro.jpg'
+primary-color='#000000'
+secondary-color='#000000'
 show-desktop-icons=false
 
 [org/gnome/desktop/calendar]
@@ -181,8 +184,11 @@ text-scaling-factor=1.0
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet', 'com-obsproject-studio', 'mountable-volume-e9a8-9d9a', 'mountable-volume-6c3d25c43c820f8d', 'org-kde-okular']
+application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet', 'com-obsproject-studio', 'mountable-volume-e9a8-9d9a', 'mountable-volume-6c3d25c43c820f8d', 'org-kde-okular', 'org-gnome-terminal', 'xdg-desktop-portal-gnome', 'gazebo', 'blender']
 show-in-lock-screen=true
+
+[org/gnome/desktop/notifications/application/blender]
+application-id='blender.desktop'
 
 [org/gnome/desktop/notifications/application/blueman-manager]
 application-id='blueman-manager.desktop'
@@ -210,6 +216,9 @@ application-id='firefox.desktop'
 
 [org/gnome/desktop/notifications/application/flatpak-installer]
 application-id='flatpak-installer.desktop'
+
+[org/gnome/desktop/notifications/application/gazebo]
+application-id='gazebo.desktop'
 
 [org/gnome/desktop/notifications/application/gimp]
 application-id='gimp.desktop'
@@ -313,6 +322,9 @@ application-id='org.gnome.Nautilus.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-powerstats]
 application-id='org.gnome.PowerStats.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-totem]
 application-id='org.gnome.Totem.desktop'
 
@@ -364,6 +376,9 @@ application-id='vlc.desktop'
 [org/gnome/desktop/notifications/application/xctu]
 application-id='XCTU.desktop'
 
+[org/gnome/desktop/notifications/application/xdg-desktop-portal-gnome]
+application-id='xdg-desktop-portal-gnome.desktop'
+
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=false
 
@@ -383,7 +398,7 @@ report-technical-problems=false
 color-shading-type='solid'
 lock-delay=uint32 0
 picture-options='zoom'
-picture-uri='file:///home/evoprime/.local/share/backgrounds/2024-03-26-21-31-07-doom.jpg'
+picture-uri='file:///home/evoprime/.local/share/backgrounds/2024-06-29-13-44-56-HillySun.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -500,8 +515,8 @@ sort-type='ascending'
 
 [org/gnome/file-roller/ui]
 sidebar-width=200
-window-height=992
-window-width=960
+window-height=938
+window-width=1896
 
 [org/gnome/gedit/plugins]
 active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'sort']
@@ -509,7 +524,7 @@ active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'so
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///usr/local/include'
+virtual-root='file:///home/evoprime/Arduino/libraries/micro_ros_arduino-2.0.7-humble/src/rmw'
 
 [org/gnome/gedit/preferences/editor]
 scheme='oblivion'
@@ -522,8 +537,8 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(960, 472)
-state=43908
+size=(942, 454)
+state=87168
 
 [org/gnome/gnome-system-monitor]
 current-tab='processes'
@@ -605,9 +620,14 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(960, 1040)
+initial-size=(942, 1010)
 maximized=false
-sidebar-width=184
+sidebar-width=218
+start-with-sidebar=true
+
+[org/gnome/nm-applet/eap/08c833bf-4720-33a0-8b55-e44608878aaa]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/13bd2bf8-b602-424d-ad1c-64b95a72f23c]
 ignore-ca-cert=false
@@ -627,6 +647,10 @@ ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/90220d64-3df5-4dbc-abb7-1f00450c157c]
 ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/93716af6-9ae1-43f9-ab05-4e4bb885bb95]
+ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/a048a8f3-a3b4-453a-ab11-c07a68dcb4a2]
@@ -653,7 +677,7 @@ info-stats-type='discharge-data'
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>c']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
 email=@as []
 help=@as []
 home=['<Super>e']
@@ -690,6 +714,11 @@ binding='<Primary><Shift>Escape'
 command='xkill'
 name='xkill'
 
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='Launch2'
+command='firefox'
+name='firefox'
+
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=1800
 sleep-inactive-ac-type='suspend'
@@ -700,7 +729,7 @@ sleep-inactive-battery-type='suspend'
 command-history=['r', 'gnome-session-properties']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com', 'paperwm@paperwm.github.com']
-enabled-extensions=['pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'cosmic-dock@system76.com', 'popx11gestures@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'cosmic-workspaces@system76.com', 'hidetopbar@mathieu.bidon.ca']
+enabled-extensions=['pop-cosmic@system76.com', 'system76-power@system76.com', 'cosmic-dock@system76.com', 'popx11gestures@system76.com', 'cosmic-workspaces@system76.com', 'pop-shell@system76.com', 'hidetopbar@mathieu.bidon.ca', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'pop-cosmic-applications.desktop', 'firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'gnome-control-center.desktop', 'obsidian.desktop']
 had-bluetooth-devices-setup=true
 welcome-dialog-last-shown-version='42.5'
@@ -753,10 +782,16 @@ show-workspaces-button=false
 [org/gnome/shell/extensions/pop-shell]
 activate-launcher=['<Super>d']
 active-hint=true
-gap-inner=uint32 0
-gap-outer=uint32 0
+active-hint-border-radius=uint32 9
+fullscreen-launcher=true
+gap-inner=uint32 3
+gap-outer=uint32 3
 hint-color-rgba='rgb(182,160,255)'
+mouse-cursor-follows-active-window=false
+show-stack-tab-buttons=true
 show-title=false
+smart-gaps=false
+snap-to-grid=true
 tile-by-default=true
 tile-enter=['<Super>space']
 
@@ -807,11 +842,11 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-size=(1009, 654)
+window-size=(942, 1010)
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.74901960784313726, 0.25098039215686274, 0.25098039215686274, 1.0), (0.75, 0.25, 0.25, 1.0), (0.0, 0.0, 1.0, 1.0), (1.0, 1.0, 0.0, 1.0), (0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.36470588235294116, 0.35686274509803922, 0.80784313725490198, 1.0), (0.36470588235294121, 0.35686274509803922, 0.80784313725490198, 1.0), (0.0, 0.33333333333333331, 0.41176470588235292, 1.0)]
-selected-color=(true, 0.92941176470588238, 0.20000000000000001, 0.23137254901960785, 1.0)
+custom-colors=[(0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.90196078431372551, 0.99607843137254903, 0.90196078431372551, 1.0), (0.90292612612612622, 0.9966666666666667, 0.90032222222222236, 1.0), (0.72156862745098038, 0.86274509803921573, 0.71764705882352942, 1.0), (0.71968936170212772, 0.8633333333333334, 0.7165666666666668, 1.0), (0.81960784313725488, 1.0, 0.81568627450980391, 1.0), (0.82063429398605081, 1.0, 0.81568627450980391, 1.0), (1.0, 0.81568627450980391, 0.81568627450980391, 1.0)]
+selected-color=(true, 0.75294117647058822, 0.38039215686274508, 0.79607843137254897, 1.0)
 
 [org/gtk/settings/emoji-chooser]
 recent-emoji=[(([uint32 128514], 'face with tears of joy', ''), uint32 0)]
@@ -824,7 +859,7 @@ show-size-column=true
 show-type-column=true
 sidebar-width=202
 sort-column='modified'
-sort-directories-first=false
+sort-directories-first=true
 sort-order='descending'
 type-format='category'
 window-position=(328, 103)

@@ -1,37 +1,37 @@
 ble-face region_insert='fg=12,bg=52'
 bleopt exec_errexit_mark=
 
-#  VIM SETUP - https://github.com/akinomyoga/ble.sh/wiki/Manual-%C2%A76-Vim-Mode#user-content-sec-vim-mode-settings
-#  set -o vi
-#  ble-import lib/vim-airline
-#  bleopt vim_airline_theme=dark_minimal
-#  bleopt vim_airline_section_b=
-#  bleopt vim_airline_section_c=
-#  bleopt vim_airline_section_x=
-#  bleopt vim_airline_section_y=
-#  bleopt vim_airline_section_z=
-#  bleopt vim_airline_left_sep=
-#  bleopt vim_airline_left_alt_sep=
-#  bleopt vim_airline_right_sep=
-#  bleopt vim_airline_right_alt_sep=
-#  
-#  # bleopt prompt_status_line='\q{keymap:vi/mode-indicator}'
-#  
-#    ble-face -s vim_airline_a                            fg=black,bg=#b6a0ff  
-#    ble-face -s vim_airline_a_commandline                fg=black,bg=40   
-#    ble-face -s vim_airline_a_inactive                   fg=black,bg=234 
-#    ble-face -s vim_airline_a_insert                     fg=black,bg=47   
-#    ble-face -s vim_airline_a_replace                    fg=black,bg=red 
-#    ble-face -s vim_airline_a_visual                     fg=black,bg=yellow  
-#  
-#  ble-face -s vim_airline_b       fg=231
-#  ble-face -s vim_airline_c       fg=231
-#  ble-face -s vim_airline_x       ref:vim_airline_c
-#  ble-face -s vim_airline_y       ref:vim_airline_b
-#  ble-face -s vim_airline_z       ref:vim_airline_a
-#  ble-face -s vim_airline_error   fg=16
-#  ble-face -s vim_airline_term    fg=158
-#  ble-face -s vim_airline_warning fg=16
+#VIM SETUP - https://github.com/akinomyoga/ble.sh/wiki/Manual-%C2%A76-Vim-Mode#user-content-sec-vim-mode-settings
+#set -o vi
+#ble-import lib/vim-airline
+#bleopt vim_airline_theme=dark_minimal
+#bleopt vim_airline_section_b=
+#bleopt vim_airline_section_c=
+#bleopt vim_airline_section_x=
+#bleopt vim_airline_section_y=
+#bleopt vim_airline_section_z=
+#bleopt vim_airline_left_sep=
+#bleopt vim_airline_left_alt_sep=
+#bleopt vim_airline_right_sep=
+#bleopt vim_airline_right_alt_sep=
 #
-#  ble-bind -m vi_imap -f 'C-c' discard-line
+#bleopt prompt_status_line='\q{keymap:vi/mode-indicator}'
+#
+#ble-face -s vim_airline_a                            fg=black,bg=#b6a0ff  
+#ble-face -s vim_airline_a_commandline                fg=black,bg=40   
+#ble-face -s vim_airline_a_inactive                   fg=black,bg=234 
+#ble-face -s vim_airline_a_insert                     fg=black,bg=47   
+#ble-face -s vim_airline_a_replace                    fg=black,bg=red 
+#ble-face -s vim_airline_a_visual                     fg=black,bg=yellow  
+#
+#ble-face -s vim_airline_b       fg=231
+#ble-face -s vim_airline_c       fg=231
+#ble-face -s vim_airline_x       ref:vim_airline_c
+#ble-face -s vim_airline_y       ref:vim_airline_b
+#ble-face -s vim_airline_z       ref:vim_airline_a
+#ble-face -s vim_airline_error   fg=16
+#ble-face -s vim_airline_term    fg=158
+#ble-face -s vim_airline_warning fg=16
+#
+#ble-bind -m vi_imap -f 'C-c' discard-line
 #ble-bind -m vi_nmap -f 'C-c' discard-line
