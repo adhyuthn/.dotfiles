@@ -6,11 +6,11 @@ dconf dump / > dconf-settings
 
 cd $location
 for files in ${back_file[@]};do 
-	cp $files .
+	rsync -a $files .
 done
 
 for dirs in ${back_dirs[@]};do 
-	cp -r "/home/evoprime/.config/$dirs" .
+	rsync -a --delete "/home/evoprime/.config/$dirs" .
 done
 
 git add .
