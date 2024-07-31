@@ -53,7 +53,7 @@ persist-window-geometry=(492, 360, 500, 300)
 custom-font='SF Pro 13'
 
 [desktop/ibus/panel/emoji]
-favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠', '🤖', '🦾', '🔴', '✔', 'ඞ', '🙋', '🐍']
+favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠', '🤖', '🦾', '🔴', '✔', 'ඞ', '🙋', '🐍', '🧠']
 font='SF Pro 13'
 
 [io/elementary/appcenter/settings]
@@ -99,8 +99,8 @@ window-state=87168
 first-run=false
 view='icon-view'
 window-maximized=false
-window-position=[12, 12]
-window-size=[1896, 1010]
+window-position=[966, 12]
+window-size=[942, 1010]
 
 [org/gnome/calculator]
 accuracy=9
@@ -118,10 +118,10 @@ window-position=(678, 36)
 word-size=64
 
 [org/gnome/calendar]
-active-view='month'
+active-view='week'
 window-maximized=false
-window-position=(12, 36)
-window-size=(1896, 986)
+window-position=(12, 12)
+window-size=(1896, 1010)
 
 [org/gnome/cheese]
 burst-delay=1000
@@ -133,16 +133,16 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='network'
 
 [org/gnome/desktop/a11y/applications]
 screen-magnifier-enabled=false
 
 [org/gnome/desktop/a11y/magnifier]
-mag-factor=1.0
+mag-factor=4.0
 
 [org/gnome/desktop/app-folders]
-folder-children=['Pop-Utility']
+folder-children=['Pop-Utility', 'eac6d145-64c5-4822-804b-ce1197d3d55e']
 
 [org/gnome/desktop/app-folders/folders/Pop-System]
 apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
@@ -153,6 +153,11 @@ translate=true
 apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'pop-cosmic-applications.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'simple-scan.desktop', 'yelp.desktop']
 name='Utilities'
 translate=true
+
+[org/gnome/desktop/app-folders/folders/eac6d145-64c5-4822-804b-ce1197d3d55e]
+apps=['org.kde.krita.desktop', 'org.gimp.GIMP.desktop', 'gpick.desktop', 'blender.desktop']
+excluded-apps=@as []
+name='Edit and Colors'
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
@@ -481,7 +486,7 @@ show-sidebar=false
 sidebar-page='thumbnails'
 sidebar-size=400
 sizing-mode='free'
-window-ratio=(4.0712468193384224, 1.6302984700275898)
+window-ratio=(3.0980392156862746, 1.244949494949495)
 zoom=0.89741018198919453
 
 [org/gnome/evolution-data-server]
@@ -515,8 +520,8 @@ sort-type='ascending'
 
 [org/gnome/file-roller/ui]
 sidebar-width=200
-window-height=938
-window-width=1896
+window-height=451
+window-width=942
 
 [org/gnome/gedit/plugins]
 active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'sort']
@@ -524,7 +529,7 @@ active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'so
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/evoprime/Arduino/libraries/micro_ros_arduino-2.0.7-humble/src/rmw'
+virtual-root='file:///home/evoprime/Athena/Downloads'
 
 [org/gnome/gedit/preferences/editor]
 scheme='oblivion'
@@ -537,8 +542,8 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(942, 454)
-state=87168
+size=(942, 451)
+state=43908
 
 [org/gnome/gnome-system-monitor]
 current-tab='processes'
@@ -620,7 +625,7 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(942, 1010)
+initial-size=(1896, 1010)
 maximized=false
 sidebar-width=218
 start-with-sidebar=true
@@ -633,8 +638,24 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/16df6280-77f8-4c93-a589-cff41b22638f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/1f56609c-776d-4043-a28d-f4155048c95f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/229635df-1b70-4fb1-8500-a79c7d8fb236]
 ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/27ee272e-0c6c-4c42-b44f-41245cbe81f0]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/28053ea9-b222-491c-becc-07abbbfac52f]
+ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/292f8973-0add-4ea1-92df-25692f3df25f]
@@ -645,6 +666,22 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/3c1bfa92-a8c4-4bb4-af45-b7cc72c9f99b]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/40cece0c-3184-49cf-a08e-408ca11b655f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/4b982b58-aa95-48aa-93e8-9bcb4241c5db]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/579bed6c-0917-4437-9e09-fab12c7bf318]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/90220d64-3df5-4dbc-abb7-1f00450c157c]
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
@@ -653,11 +690,43 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/9cac22f6-b3c0-4cd3-9b62-a8ceb2ac8147]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/9da49bd5-b6c9-4093-afae-4e0524c1da5b]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/a048a8f3-a3b4-453a-ab11-c07a68dcb4a2]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/bb297801-513e-4e5b-b142-8ccbb9fa1fcf]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/bd7a5a58-9368-4a06-bd25-805b0df2dabd]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/c59e6836-5244-4a18-81b2-c9c2651fb27a]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/d60858c7-815c-4299-8b2b-9d976d37bc79]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/da6e858c-94b1-4730-b693-193e684844e8]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/eefbf9c7-2d51-4cf9-9392-d27c406f30db]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/f2372528-7298-4b0f-912c-8f75d99d822c]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -674,6 +743,10 @@ info-page-number=2
 info-stats-graph-points=true
 info-stats-graph-smooth=false
 info-stats-type='discharge-data'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-temperature=uint32 1700
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>c']
@@ -846,7 +919,7 @@ window-size=(942, 1010)
 
 [org/gtk/settings/color-chooser]
 custom-colors=[(0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.90196078431372551, 0.99607843137254903, 0.90196078431372551, 1.0), (0.90292612612612622, 0.9966666666666667, 0.90032222222222236, 1.0), (0.72156862745098038, 0.86274509803921573, 0.71764705882352942, 1.0), (0.71968936170212772, 0.8633333333333334, 0.7165666666666668, 1.0), (0.81960784313725488, 1.0, 0.81568627450980391, 1.0), (0.82063429398605081, 1.0, 0.81568627450980391, 1.0), (1.0, 0.81568627450980391, 0.81568627450980391, 1.0)]
-selected-color=(true, 0.75294117647058822, 0.38039215686274508, 0.79607843137254897, 1.0)
+selected-color=(true, 0.71372549019607834, 0.62745098039215685, 1.0, 1.0)
 
 [org/gtk/settings/emoji-chooser]
 recent-emoji=[(([uint32 128514], 'face with tears of joy', ''), uint32 0)]

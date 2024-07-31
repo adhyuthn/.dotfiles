@@ -33,7 +33,6 @@ require('lazy').setup({
       'folke/neodev.nvim',
     },
   },
-
   {
     'hrsh7th/nvim-cmp',
     dependencies = {
@@ -43,7 +42,6 @@ require('lazy').setup({
       'rafamadriz/friendly-snippets',
     },
   },
-
   { 'folke/which-key.nvim', opts = {} },
   {
     'lewis6991/gitsigns.nvim',
@@ -136,8 +134,10 @@ vim.o.termguicolors = true
 vim.o.rnu = true
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
+vim.o.cursorline = true
 
 vim.cmd([[colorscheme kitty]])
+
 
 -- [[ Keymaps ]]
 
@@ -156,7 +156,6 @@ vim.keymap.set('v', 'x', '"_x', { noremap = true, desc = 'delete char (+)' })
 vim.keymap.set('n', 'c', '"_c', { noremap = true, desc = 'change (+)' })
 vim.keymap.set('n', 'C', '"_C', { noremap = true, desc = 'change (+)' })
 vim.keymap.set('n', 'x', '"_x', { noremap = true, desc = 'delete char (+)' })
-vim.keymap.set('v', 'al', ':<C-U>normal 0v$h<CR>', { noremap = true, desc = 'select a line'} )
 vim.keymap.set('v', 'il', ':<C-U>normal ^vg_<CR>', { noremap = true, desc = 'select inside line'} )
 
 -- [[ Highlight on yank ]]

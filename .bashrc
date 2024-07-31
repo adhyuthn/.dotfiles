@@ -62,7 +62,6 @@ fi
 #   / /_/ / /_/ / / / / /|_/ / /_/ / / /   
 #  / ____/ _, _/ /_/ / /  / / ____/ / /    
 # /_/   /_/ |_|\____/_/  /_/_/     /_/     
-    
 
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35m\][\@][$?] \[\033[04;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
@@ -237,11 +236,15 @@ function listcol() {
 
 #### ENVIRONMENTS
 LANG=C.UTF-8
+. "$HOME/.cargo/env"
 
 # BASH Add-ons
+# ble.sh
 source /opt/ble.sh/out/ble.sh --rcfile "$HOME/.blerc"
 
+# atuin
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash --disable-up-arrow)"
 
-. "$HOME/.cargo/env"
+# complete-alias
+source $HOME/.config/scripts/complete-alias-master/complete_alias
