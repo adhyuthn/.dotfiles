@@ -1,6 +1,6 @@
 hi clear
 syntax reset
-let g:colors_name = "kitty"
+let g:colors_name = "evo"
 set background=dark
 set t_Co=256
 hi Normal guifg=#b6a0ff ctermbg=NONE guibg=#1a1425 gui=NONE

@@ -136,7 +136,7 @@ vim.o.shiftwidth = 4
 vim.o.tabstop = 4
 vim.o.cursorline = true
 
-vim.cmd([[colorscheme kitty]])
+vim.cmd([[colorscheme evo]])
 
 
 -- [[ Keymaps ]]
