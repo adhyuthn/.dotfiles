@@ -1,9 +1,6 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- Install package manager
---    https://github.com/folke/lazy.nvim
---    `:help lazy.nvim.txt` for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system {
@@ -11,11 +8,12 @@ if not vim.loop.fs_stat(lazypath) then
     'clone',
     '--filter=blob:none',
     'https://github.com/folke/lazy.nvim.git',
-    '--branch=stable', -- latest stable release
+    '--branch=stable',
     lazypath,
   }
 end
 vim.opt.rtp:prepend(lazypath)
+vim.opt.modeline = false
 
 require('lazy').setup({
   -- tpope esentials
@@ -69,7 +67,7 @@ require('lazy').setup({
       options = {
         icons_enabled = false,
         theme = 'dracula',
-        component_separators = '',
+        component_separators = { left = '', right = ''},
         section_separators = { left = '', right = ''},
       },
     },
@@ -112,7 +110,6 @@ vim.wo.number = true
 vim.o.mouse = 'a'
 vim.o.clipboard = 'unnamedplus'
 vim.opt.expandtab = true
-vim.o.list = true
 
 local space = "·"
 vim.opt.listchars:append {
@@ -121,6 +118,7 @@ vim.opt.listchars:append {
 	trail = space,
 	nbsp = space
 }
+vim.o.list = false
 
 vim.o.breakindent = true
 vim.o.undofile = true
@@ -384,7 +382,3 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
-
-
--- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et

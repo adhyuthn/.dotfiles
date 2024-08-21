@@ -53,7 +53,7 @@ persist-window-geometry=(492, 360, 500, 300)
 custom-font='SF Pro 13'
 
 [desktop/ibus/panel/emoji]
-favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠', '🤖', '🦾', '🔴', '✔', 'ඞ', '🙋', '🐍', '🧠']
+favorites=['😄', 'Ա', '😀', '≤', '🐧', '💀', '❌', '✅', '🫥', '🛠', '🤖', '🦾', '🔴', '✔', 'ඞ', '🙋', '🐍', '🧠', '⛌', '👇', '🔥']
 font='SF Pro 13'
 
 [io/elementary/appcenter/settings]
@@ -92,15 +92,15 @@ subtitle-encoding='UTF-8'
 locations=[<(uint32 2, <('Kochi', 'VOCI', true, [(0.17724788957066526, 1.3332812582217786)], [(0.17413149947147427, 1.3311626204960751)])>)>]
 
 [org/gnome/baobab/ui]
-window-size=(942, 499)
+window-size=(942, 1010)
 window-state=87168
 
 [org/gnome/boxes]
 first-run=false
 view='icon-view'
 window-maximized=false
-window-position=[966, 12]
-window-size=[942, 1010]
+window-position=[12, 12]
+window-size=[1896, 1010]
 
 [org/gnome/calculator]
 accuracy=9
@@ -114,11 +114,11 @@ source-currency=''
 source-units='degree'
 target-currency=''
 target-units='radian'
-window-position=(678, 36)
+window-position=(0, 0)
 word-size=64
 
 [org/gnome/calendar]
-active-view='week'
+active-view='month'
 window-maximized=false
 window-position=(12, 12)
 window-size=(1896, 1010)
@@ -133,7 +133,7 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='bluetooth'
 
 [org/gnome/desktop/a11y/applications]
 screen-magnifier-enabled=false
@@ -189,7 +189,7 @@ text-scaling-factor=1.0
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet', 'com-obsproject-studio', 'mountable-volume-e9a8-9d9a', 'mountable-volume-6c3d25c43c820f8d', 'org-kde-okular', 'org-gnome-terminal', 'xdg-desktop-portal-gnome', 'gazebo', 'blender']
+application-children=['gnome-control-center', 'firefox', 'org-gnome-nautilus', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-kde-kdenlive', 'gnome-power-panel', 'org-gnome-fileroller', 'org-gnome-eog', 'org-gnome-gedit', 'blueman-manager', 'org-gnome-evince', 'org-gnome-calculator', 'org-qbittorrent-qbittorrent', 'org-gnome-totem', 'vlc', 'mountable-volume-a01e31f41e31c456', 'gimp', 'org-gnome-diskutility', 'gnome-network-panel', 'org-gnome-baobab', 'xctu', 'org-gnome-calendar', 'org-kicad-kicad', 'gpick', 'org-kicad-eeschema', 'kitty', 'easytag', 'mpv', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'mountable-volume-3bb4-fc30', 'com-system76-popsicle', 'org-gnome-cheese', 'feh', 'plugdata', 'org-gnome-boxes', 'localsend-app', 'simple-scan', 'tuxtype', 'sioyek', 'org-kicad-gerbview', 'mountable-volume-2024-01-26-07-14-13-00', 'org-gnome-font-viewer', 'gnome-printers-panel', 'code', 'org-gnome-powerstats', 'org-fontforge-fontforge', 'nemo', 'protonvpn-app', 'flatpak-installer', 'org-gimp-gimp', 'gnome-system-monitor', 'org-kde-krita', 'mountable-volume-3130-6338', 'nm-applet', 'com-obsproject-studio', 'mountable-volume-e9a8-9d9a', 'mountable-volume-6c3d25c43c820f8d', 'org-kde-okular', 'org-gnome-terminal', 'xdg-desktop-portal-gnome', 'gazebo', 'blender', 'location-mtp-samsung-samsung-android-rzcr901rj6x-', 'org-gnome-shell-portalhelper', 'org-qt-project-qtcreator']
 show-in-lock-screen=true
 
 [org/gnome/desktop/notifications/application/blender]
@@ -251,6 +251,9 @@ application-id='kitty.desktop'
 
 [org/gnome/desktop/notifications/application/localsend-app]
 application-id='localsend_app.desktop'
+
+[org/gnome/desktop/notifications/application/location-mtp-samsung-samsung-android-rzcr901rj6x-]
+application-id='location:mtp://SAMSUNG_SAMSUNG_Android_RZCR901RJ6X/.desktop'
 
 [org/gnome/desktop/notifications/application/mountable-volume-2024-01-26-07-14-13-00]
 application-id='mountable-volume:2024-01-26-07-14-13-00.desktop'
@@ -327,6 +330,9 @@ application-id='org.gnome.Nautilus.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-powerstats]
 application-id='org.gnome.PowerStats.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-shell-portalhelper]
+application-id='org.gnome.Shell.PortalHelper.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-terminal]
 application-id='org.gnome.Terminal.desktop'
 
@@ -359,6 +365,9 @@ application-id='org.kicad.kicad.desktop'
 
 [org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
 application-id='org.qbittorrent.qBittorrent.desktop'
+
+[org/gnome/desktop/notifications/application/org-qt-project-qtcreator]
+application-id='org.qt-project.qtcreator.desktop'
 
 [org/gnome/desktop/notifications/application/plugdata]
 application-id='plugdata.desktop'
@@ -411,7 +420,7 @@ secondary-color='#000000000000'
 disabled=['org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Calculator.desktop']
 
 [org/gnome/desktop/session]
-idle-delay=uint32 300
+idle-delay=uint32 900
 
 [org/gnome/desktop/sound]
 theme-name='Pop'
@@ -521,7 +530,7 @@ sort-type='ascending'
 [org/gnome/file-roller/ui]
 sidebar-width=200
 window-height=451
-window-width=942
+window-width=465
 
 [org/gnome/gedit/plugins]
 active-plugins=['spell', 'filebrowser', 'modelines', 'docinfo', 'openlinks', 'sort']
@@ -546,12 +555,12 @@ size=(942, 451)
 state=43908
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
-maximized=true
+current-tab='resources'
+maximized=false
 network-total-in-bits=false
 show-dependencies=false
 show-whose-processes='user'
-window-state=(1920, 1040, 0, 0)
+window-state=(942, 499, 12, 523)
 
 [org/gnome/gnome-system-monitor/disktreenew]
 col-6-visible=true
@@ -625,12 +634,20 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(1896, 1010)
+initial-size=(942, 1010)
 maximized=false
-sidebar-width=218
+sidebar-width=295
 start-with-sidebar=true
 
 [org/gnome/nm-applet/eap/08c833bf-4720-33a0-8b55-e44608878aaa]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/0c573bba-359b-4e58-95c2-7f7f92f61c6e]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/0cd80141-be1b-4d87-8ee2-55d101a3d77d]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -642,12 +659,20 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/1ceb1696-a602-4107-9d67-49d0af225eca]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/1f56609c-776d-4043-a28d-f4155048c95f]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/229635df-1b70-4fb1-8500-a79c7d8fb236]
 ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/26bca1a7-8d59-4e5a-9039-02dc09df4824]
+ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/27ee272e-0c6c-4c42-b44f-41245cbe81f0]
@@ -666,6 +691,10 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/35ac8e05-b34f-499b-9319-11ff9bce1b2b]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/3c1bfa92-a8c4-4bb4-af45-b7cc72c9f99b]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
@@ -682,11 +711,27 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/74ad8e37-a36f-4768-9c15-ad3e4d268eb3]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/7cd7f7b4-0298-41aa-a619-97e1255f279f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/7d62e5b3-882a-4070-b6f8-746879cd3987]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/90220d64-3df5-4dbc-abb7-1f00450c157c]
 ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/93716af6-9ae1-43f9-ab05-4e4bb885bb95]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/9bff44b7-8fa7-4218-8899-d7d69bebeda3]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -702,6 +747,10 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/b6b2aa5c-707c-49bb-9243-d0da2d37da90]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/bb297801-513e-4e5b-b142-8ccbb9fa1fcf]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
@@ -710,11 +759,19 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/c434010b-72db-4e5c-839a-d0e2d3f231e4]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/c59e6836-5244-4a18-81b2-c9c2651fb27a]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/d60858c7-815c-4299-8b2b-9d976d37bc79]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/da5391fd-4873-4b40-bce4-d9b3d46a53ea]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -727,6 +784,14 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/f2372528-7298-4b0f-912c-8f75d99d822c]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/f799d96a-ec5a-47bb-be48-e9e4b24038d0]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/fb21f47e-12a1-4d37-8bf4-1f990b90bc7b]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -750,7 +815,7 @@ night-light-temperature=uint32 1700
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>c']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
 email=@as []
 help=@as []
 home=['<Super>e']
@@ -792,17 +857,22 @@ binding='Launch2'
 command='firefox'
 name='firefox'
 
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Super>x'
+command='/home/evoprime/.config/rofi/powermenu/type-1/powermenu-gnome.sh'
+name='rofi powermenu'
+
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=1800
-sleep-inactive-ac-type='suspend'
+sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='suspend'
 
 [org/gnome/shell]
 command-history=['r', 'gnome-session-properties']
 disable-user-extensions=false
-disabled-extensions=['ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com', 'paperwm@paperwm.github.com']
-enabled-extensions=['pop-cosmic@system76.com', 'system76-power@system76.com', 'cosmic-dock@system76.com', 'popx11gestures@system76.com', 'cosmic-workspaces@system76.com', 'pop-shell@system76.com', 'hidetopbar@mathieu.bidon.ca', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+disabled-extensions=['ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com', 'paperwm@paperwm.github.com', 'cosmic-dock@system76.com']
+enabled-extensions=['pop-cosmic@system76.com', 'system76-power@system76.com', 'popx11gestures@system76.com', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'hidetopbar@mathieu.bidon.ca', 'cosmic-workspaces@system76.com']
 favorite-apps=['pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'pop-cosmic-applications.desktop', 'firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'gnome-control-center.desktop', 'obsidian.desktop']
 had-bluetooth-devices-setup=true
 welcome-dialog-last-shown-version='42.5'
@@ -918,8 +988,8 @@ type-format='category'
 window-size=(942, 1010)
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.90196078431372551, 0.99607843137254903, 0.90196078431372551, 1.0), (0.90292612612612622, 0.9966666666666667, 0.90032222222222236, 1.0), (0.72156862745098038, 0.86274509803921573, 0.71764705882352942, 1.0), (0.71968936170212772, 0.8633333333333334, 0.7165666666666668, 1.0), (0.81960784313725488, 1.0, 0.81568627450980391, 1.0), (0.82063429398605081, 1.0, 0.81568627450980391, 1.0), (1.0, 0.81568627450980391, 0.81568627450980391, 1.0)]
-selected-color=(true, 0.71372549019607834, 0.62745098039215685, 1.0, 1.0)
+custom-colors=[(0.74509803921568629, 0.80784313725490198, 0.8666666666666667, 1.0), (0.71372549019607834, 0.62745098039215685, 1.0, 1.0), (0.90196078431372551, 0.99607843137254903, 0.90196078431372551, 1.0), (0.90292612612612622, 0.9966666666666667, 0.90032222222222236, 1.0), (0.72156862745098038, 0.86274509803921573, 0.71764705882352942, 1.0), (0.71968936170212772, 0.8633333333333334, 0.7165666666666668, 1.0), (0.81960784313725488, 1.0, 0.81568627450980391, 1.0), (0.82063429398605081, 1.0, 0.81568627450980391, 1.0)]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
 
 [org/gtk/settings/emoji-chooser]
 recent-emoji=[(([uint32 128514], 'face with tears of joy', ''), uint32 0)]
@@ -931,9 +1001,9 @@ show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=202
-sort-column='modified'
+sort-column='name'
 sort-directories-first=true
-sort-order='descending'
+sort-order='ascending'
 type-format='category'
 window-position=(328, 103)
 window-size=(1263, 822)

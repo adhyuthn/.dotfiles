@@ -57,6 +57,7 @@ hi cssClassNameDot guifg=#f28ec3 guibg=NONE
 hi Statement guifg=#6de5ff guibg=NONE
 hi Operator guifg=#6de5ff guibg=NONE
 hi cssAttr guifg=#6de5ff guibg=NONE
+hi SpecialKey guifg=#FFFF00
 
 
 hi Pmenu guifg=#b6a0ff guibg=#2f2548
