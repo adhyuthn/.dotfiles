@@ -634,12 +634,16 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(942, 1010)
+initial-size=(1896, 1010)
 maximized=false
 sidebar-width=295
 start-with-sidebar=true
 
 [org/gnome/nm-applet/eap/08c833bf-4720-33a0-8b55-e44608878aaa]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/09b830cf-e3c1-4e76-8612-63c1f79192b3]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -684,6 +688,10 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/292f8973-0add-4ea1-92df-25692f3df25f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/335d6106-2d35-4013-9265-2bd304413fc0]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -767,6 +775,10 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/d3cd755f-b81d-4232-815e-b4af0c3d924c]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/d60858c7-815c-4299-8b2b-9d976d37bc79]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
@@ -776,6 +788,10 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/da6e858c-94b1-4730-b693-193e684844e8]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/ea2b51ad-ee9b-4ccb-9af3-bf7ad6e0bcc5]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -997,7 +1013,7 @@ recent-emoji=[(([uint32 128514], 'face with tears of joy', ''), uint32 0)]
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=202
@@ -1005,7 +1021,7 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-window-position=(328, 103)
+window-position=(554, 103)
 window-size=(1263, 822)
 
 [org/nemo/desktop]

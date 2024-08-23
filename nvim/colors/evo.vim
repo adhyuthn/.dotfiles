@@ -3,68 +3,11 @@ syntax reset
 let g:colors_name = "evo"
 set background=dark
 set t_Co=256
-hi Normal guifg=#b6a0ff ctermbg=NONE guibg=#1a1425 gui=NONE
-
-hi DiffText guifg=#fc7575 guibg=NONE
-hi ErrorMsg guifg=#fc7575 guibg=NONE
-hi WarningMsg guifg=#fc7575 guibg=NONE
-hi PreProc guifg=#fc7575 guibg=NONE
-hi Exception guifg=#fc7575 guibg=NONE
-hi Error guifg=#fc7575 guibg=NONE
-hi DiffDelete guifg=#fc7575 guibg=NONE
-hi GitGutterDelete guifg=#fc7575 guibg=NONE
-hi GitGutterChangeDelete guifg=#fc7575 guibg=NONE
-hi cssIdentifier guifg=#fc7575 guibg=NONE
-hi cssImportant guifg=#fc7575 guibg=NONE
-hi Type guifg=#fc7575 guibg=NONE
-hi Identifier guifg=#fc7575 guibg=NONE
-hi PMenuSel guifg=#6ef8be guibg=NONE
-hi Constant guifg=#6ef8be guibg=NONE
-hi Repeat guifg=#6ef8be guibg=NONE
-hi DiffAdd guifg=#6ef8be guibg=NONE
-hi GitGutterAdd guifg=#6ef8be guibg=NONE
-hi cssIncludeKeyword guifg=#6ef8be guibg=NONE
-hi Keyword guifg=#6ef8be guibg=NONE
-hi IncSearch guifg=#e2f781 guibg=NONE
-hi Title guifg=#e2f781 guibg=NONE
-hi PreCondit guifg=#e2f781 guibg=NONE
-hi Debug guifg=#e2f781 guibg=NONE
-hi SpecialChar guifg=#e2f781 guibg=NONE
-hi Conditional guifg=#e2f781 guibg=NONE
-hi Todo guifg=#e2f781 guibg=NONE
-hi Special guifg=#e2f781 guibg=NONE
-hi Label guifg=#e2f781 guibg=NONE
-hi Delimiter guifg=#e2f781 guibg=NONE
-hi Number guifg=#e2f781 guibg=NONE
-hi CursorLineNR guifg=#e7f551 guibg=NONE
-hi Define guifg=#e2f781 guibg=NONE
-hi MoreMsg guifg=#e2f781 guibg=NONE
-hi Tag guifg=#e2f781 guibg=NONE
-hi String guifg=#e2f781 guibg=NONE
-hi MatchParen guifg=#e2f781 guibg=NONE
-hi Macro guifg=#e2f781 guibg=NONE
-hi DiffChange guifg=#e2f781 guibg=NONE
-hi GitGutterChange guifg=#e2f781 guibg=NONE
-hi cssColor guifg=#e2f781 guibg=NONE
-hi Function guifg=#6aa2ff guibg=NONE
-hi Directory guifg=#f28ec3 guibg=NONE
-hi markdownLinkText guifg=#f28ec3 guibg=NONE
-hi javaScriptBoolean guifg=#f28ec3 guibg=NONE
-hi Include guifg=#f28ec3 guibg=NONE
-hi Storage guifg=#f28ec3 guibg=NONE
-hi cssClassName guifg=#f28ec3 guibg=NONE
-hi cssClassNameDot guifg=#f28ec3 guibg=NONE
-hi Statement guifg=#6de5ff guibg=NONE
-hi Operator guifg=#6de5ff guibg=NONE
-hi cssAttr guifg=#6de5ff guibg=NONE
-hi SpecialKey guifg=#FFFF00
-
 
 hi Pmenu guifg=#b6a0ff guibg=#2f2548
 hi SignColumn guibg=#1a1425
 hi Title guifg=#b6a0ff
-hi LineNr guifg=#3100d3 guibg=#1a1425
-hi NonText guifg=#a7a7a7 guibg=#1a1425
+hi NonText guifg=#cdd6f4 guibg=#1a1425
 hi Comment guifg=#a7a7a7 gui=italic
 hi SpecialComment guifg=#a7a7a7 gui=italic guibg=NONE
 hi CursorLine guibg=NONE
@@ -76,6 +19,59 @@ hi Search guibg=#a7a7a7 guifg=#b6a0ff
 hi VertSplit gui=NONE guifg=#2f2548 guibg=NONE
 hi Visual gui=NONE guibg=#42335E
 
+" Define basic colors for common syntax groups
+highlight Comment         guifg=#6c7086    ctermfg=243
+highlight Punctuation     guifg=#9399b2    ctermfg=145
+highlight String          guifg=#a6e3a1    ctermfg=108
+highlight Keyword         guifg=#cba6f7    ctermfg=177
+highlight Constant        guifg=#eba0ac    ctermfg=174
+highlight DocString       guifg=#7f849c    ctermfg=245
+highlight Type            guifg=#b4befe    ctermfg=153
+highlight Function        guifg=#89b4fa    ctermfg=75
+highlight Identifier      guifg=#89dceb    ctermfg=81
+highlight Decorator       guifg=#94e2d5    ctermfg=116
+highlight Parameter       guifg=#f2cdcd    ctermfg=217
+highlight Special         guifg=#fab387    ctermfg=215
+highlight Text            guifg=#cdd6f4    ctermfg=188
+
+" Numbers, Booleans, and Other Constants
+highlight Number          guifg=#f9e2af    ctermfg=223
+highlight Boolean         guifg=#f9e2af    ctermfg=223
+highlight Float           guifg=#f9e2af    ctermfg=223
+highlight ConstantOther   guifg=#f9e2af    ctermfg=223
+
+" Specific cases for styling
+highlight KeywordBold     gui=bold         guifg=#cba6f7    ctermfg=177
+highlight ItalicBold      gui=italic,bold  guifg=#89b4fa    ctermfg=75
+highlight Italic          gui=italic       guifg=#6c7086    ctermfg=243
+highlight Normal          guifg=#cdd6f4    ctermfg=188
+highlight Bold            gui=bold         guifg=#cdd6f4    ctermfg=188
+
+" Special Characters and Brackets
+highlight SpecialChar     guifg=#eba0ac    ctermfg=174
+highlight Delimiter       guifg=#9399b2    ctermfg=145
+highlight MatchParen      guibg=#494d64    guifg=#cdd6f4    ctermbg=236 ctermfg=188
+highlight SpecialKey      guifg=#74c7ec    ctermfg=81
+
+" Links for semantic tokens
+highlight link TypeBuiltIn          Type
+highlight link FunctionBuiltin      Special
+highlight link Decorator            Decorator
+highlight link SelfParameter        Special
+highlight link EnumDeclaration      Special
+highlight link Enum                 Identifier
+highlight link Class                Identifier
+highlight link ClassDeclaration     Special
+
+" Additional links for other commonly used groups
+highlight link Number               Constant
+highlight link Boolean              Constant
+highlight link Float                Constant
+highlight link SpecialChar          Special
+
+" Enable bold, italic styles where applicable
+highlight ParameterBold     gui=bold guifg=#f5e0dc ctermfg=188
+highlight SelfParameterItalic guifg=#fab387 gui=italic ctermfg=215
 
 hi EndOfBuffer guifg=bg   
 hi LineNr guifg=#7760c3
