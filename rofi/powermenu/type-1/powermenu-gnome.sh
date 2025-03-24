@@ -18,13 +18,14 @@ uptime="`uptime -p | sed -e 's/up //g'`"
 host=`hostname`
 
 # Options
-shutdown='  Shutdown'
+shutdown=' Shutdown'
 reboot=' Reboot'
-lock='  Lock'
+lock=' Lock'
 suspend='⏾ Suspend'
-logout='  Logout'
-yes='  Yes'
+logout=' Logout'
+yes=' Yes'
 no=' No'
+settings=' Settings'
 
 # Rofi CMD
 rofi_cmd() {
@@ -54,7 +55,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown\n$settings" | rofi_cmd
 }
 
 # Execute Command
@@ -95,11 +96,6 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		#if [[ -x '/usr/bin/betterlockscreen' ]]; then
-		#	betterlockscreen -l
-		#elif [[ -x '/usr/bin/i3lock' ]]; then
-		#	i3lock
-		#fi
 		loginctl lock-session
         ;;
     $suspend)
@@ -109,4 +105,6 @@ case ${chosen} in
 		#run_cmd --logout
 		gnome-session-quit
         ;;
+    $settings)
+		gnome-control-center 
 esac

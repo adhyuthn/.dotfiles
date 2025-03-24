@@ -2,7 +2,13 @@ ble-face region_insert='fg=12,bg=52'
 bleopt exec_errexit_mark=
 
 #VIM SETUP - https://github.com/akinomyoga/ble.sh/wiki/Manual-%C2%A76-Vim-Mode#user-content-sec-vim-mode-settings
-#set -o vi
+set -o vi
+ble-bind -m vi_cmap --cursor 0
+ble-bind -m vi_imap --cursor 5
+ble-bind -m vi_nmap --cursor 2
+ble-bind -m vi_omap --cursor 4
+ble-bind -m vi_smap --cursor 2
+ble-bind -m vi_xmap --cursor 2
 #ble-import lib/vim-airline
 #bleopt vim_airline_theme=dark_minimal
 #bleopt vim_airline_section_b=
@@ -33,5 +39,5 @@ bleopt exec_errexit_mark=
 #ble-face -s vim_airline_term    fg=158
 #ble-face -s vim_airline_warning fg=16
 #
-#ble-bind -m vi_imap -f 'C-c' discard-line
-#ble-bind -m vi_nmap -f 'C-c' discard-line
+ble-bind -m vi_imap -f 'C-c' discard-line
+ble-bind -m vi_nmap -f 'C-c' discard-line
